@@ -270,3 +270,4 @@ C:\Users\bachi\Documents\code projects\Website\Website\bin\Debug\net8.0\Swashbuc
 C:\Users\bachi\Documents\code projects\Website\Website\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\bachi\Documents\code projects\Website\Website\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\bachi\Documents\code projects\Website\Website\obj\Debug\net8.0\Website.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\bachi\Documents\code projects\Website\Website\obj\Debug\net8.0\Website.sourcelink.json

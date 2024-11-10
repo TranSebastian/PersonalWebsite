@@ -9,18 +9,17 @@ builder.Services.AddControllers();
 /*
  * Swagger stuff
  */
-//builder.Services.AddEndpointsApiExplorer();
-//builder.Services.AddSwaggerGen();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 // Add services to the container.
-builder.Services.AddRazorComponents()
-    .AddInteractiveServerComponents();
+//builder.Services.AddRazorComponents()
+//    .AddInteractiveServerComponents();
 
 /*
  * Image database related items
  */
 builder.Services.AddSqlite<ImageContext>("Data Source=WebsiteImages.db");
-builder.Services.AddScoped<ImageService>();
 
 var app = builder.Build();
 
@@ -39,10 +38,11 @@ if (!app.Environment.IsDevelopment())
  */
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseAntiforgery();
 
-app.MapRazorComponents<App>()
-    .AddInteractiveServerRenderMode();
+//app.UseAntiforgery();
+
+//app.MapRazorComponents<App>()
+//    .AddInteractiveServerRenderMode();
 
 /*
  * i think stuff to get db working
@@ -57,8 +57,8 @@ app.CreateDbIfNotExists();
  * Swagger stuff
  * Un comment to test image API
  */
-//app.UseSwagger();
-//app.UseSwaggerUI();
-//app.MapGet("/", () => @"Contoso Pizza management API. Navigate to /swagger to open the Swagger test UI.");
+app.UseSwagger();
+app.UseSwaggerUI();
+app.MapGet("/", () => @"Contoso Pizza management API. Navigate to /swagger to open the Swagger test UI.");
 
 app.Run();
