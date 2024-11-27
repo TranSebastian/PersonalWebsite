@@ -27,3 +27,34 @@ h1:focus {
 .darker-border-checkbox.form-check-input {
     border-color: #929292;
 }
+
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Distributes images with equal spacing */
+    align-items: center; /* Vertically aligns images */
+}
+
+    .image-container img {
+        max-width: 16vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        height: 100%;
+    }
+
+.overlay {
+    height: 100%;
+    max-width: 50.5785124vw;
+    position: absolute;
+    animation: MoveLeftRight 10s linear infinite;
+    z-index: 2;
+}
+
+@keyframes MoveLeftRight {
+    0% {
+        right: 0px
+    }
+
+    100% {
+        right: 1920px;
+    }
+}

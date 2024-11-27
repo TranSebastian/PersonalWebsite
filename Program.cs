@@ -1,6 +1,5 @@
 using Website.Components;
 using Website.Components.Data;
-using Website.Components.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,8 +12,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Add services to the container.
-//builder.Services.AddRazorComponents()
-//    .AddInteractiveServerComponents();
+builder.Services.AddRazorComponents()
+    .AddInteractiveServerComponents();
 
 /*
  * Image database related items
@@ -39,26 +38,25 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-//app.UseAntiforgery();
-
-//app.MapRazorComponents<App>()
-//    .AddInteractiveServerRenderMode();
+app.UseAntiforgery();
+app.MapRazorComponents<App>()
+    .AddInteractiveServerRenderMode();
 
 /*
  * i think stuff to get db working
  */
 app.UseAuthorization();
 app.MapControllers();
+app.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
 
 // Add the CreateDbIfNotExists method call
 app.CreateDbIfNotExists();
 
 /*
- * Swagger stuff
- * Un comment to test image API
+ * More swagger stuff
+ * go to /swagger to test API
  */
 app.UseSwagger();
 app.UseSwaggerUI();
-app.MapGet("/", () => @"Contoso Pizza management API. Navigate to /swagger to open the Swagger test UI.");
 
 app.Run();
