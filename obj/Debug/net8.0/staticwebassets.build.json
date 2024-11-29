@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "grmMi0WbF2iJnMlIwb3tt+C8WqDCN1NiIk3tRBPIGwo=",
+  "Hash": "S4jEyFRCKvwmDREcEulxWTq8YgDpJct4II7To02FwzE=",
   "Source": "Website",
   "BasePath": "_content/Website",
   "Mode": "Default",
@@ -31,6 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "25o87uqmvr",
+      "Integrity": "Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\bachi\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.10\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
@@ -50,6 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "eu7w3d5g1a",
+      "Integrity": "tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\bachi\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.10\\staticwebassets\\QuickGrid.razor.js"
@@ -60,7 +64,7 @@
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Website",
-      "RelativePath": "Website.styles.css",
+      "RelativePath": "Website#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -69,6 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "xqqj0t3ljf",
+      "Integrity": "KRLKdyOKiyxWkiWHjQ1qwJUhVBhdjDuJ4XjxijrL7j4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Website.styles.css"
@@ -79,7 +85,7 @@
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Website",
-      "RelativePath": "Website.bundle.scp.css",
+      "RelativePath": "Website#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -88,6 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "vdbduwor6o",
+      "Integrity": "Heew1P7JDPzHthc5k1A73BJgOrURp0otZLpnvPqaBIs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css"
@@ -98,18 +106,125 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\",
       "BasePath": "_content/Website",
-      "RelativePath": "app.css",
+      "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "riains4vu5",
+      "Integrity": "w2xcacV3ephxOR9Pqr0HF9HWlkmBBPyZnqwTlmCbB5s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Hv Comp.otf",
+      "SourceId": "Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\",
+      "BasePath": "_content/Website",
+      "RelativePath": "fonts/Coolvetica Hv Comp#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ti7035kgi5",
+      "Integrity": "64JW1idl72evfTNdMfcM+FLfVtpnySuC+rzxBrAk15Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Coolvetica Hv Comp.otf"
+    },
+    {
+      "Identity": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg Cond.otf",
+      "SourceId": "Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\",
+      "BasePath": "_content/Website",
+      "RelativePath": "fonts/Coolvetica Rg Cond#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4b2wvjohjn",
+      "Integrity": "sD4mf+RXW6V90B8cTPkLiNrUmVgypFBmxLz+wQeNqP0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Coolvetica Rg Cond.otf"
+    },
+    {
+      "Identity": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg Cram.otf",
+      "SourceId": "Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\",
+      "BasePath": "_content/Website",
+      "RelativePath": "fonts/Coolvetica Rg Cram#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dq4gezprgp",
+      "Integrity": "9QUkRYgIS8sxMPd6e/SR02sHnhPV/NKSTdVX7FYhHhU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Coolvetica Rg Cram.otf"
+    },
+    {
+      "Identity": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg It.otf",
+      "SourceId": "Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\",
+      "BasePath": "_content/Website",
+      "RelativePath": "fonts/Coolvetica Rg It#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "slrm05ppzs",
+      "Integrity": "wMaacytHKP/YpLmTshVes0UGbwhJ1DFuMi4jux/9fP8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Coolvetica Rg It.otf"
+    },
+    {
+      "Identity": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg.otf",
+      "SourceId": "Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\",
+      "BasePath": "_content/Website",
+      "RelativePath": "fonts/Coolvetica Rg#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "llxhetjsng",
+      "Integrity": "p6mzG8ZdRCypeqM91YjeNqS7H2EFSSpVv7BV7YY5hUY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Coolvetica Rg.otf"
     },
     {
       "Identity": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\blue.png",
@@ -117,15 +232,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\",
       "BasePath": "_content/Website",
-      "RelativePath": "images/blue.png",
+      "RelativePath": "images/blue#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "33p2gft0my",
+      "Integrity": "gZjhzksWT4fQjcSDrrQ0nGRSJ74KrQQU1tnXx1PIAsU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\blue.png"
@@ -136,15 +253,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\",
       "BasePath": "_content/Website",
-      "RelativePath": "images/green.png",
+      "RelativePath": "images/green#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "4edmnj8kab",
+      "Integrity": "tO8sHwosqPnin0fe2H66CtHaebZ3FOCm3yKke6uW1A0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\green.png"
@@ -155,18 +274,41 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\",
       "BasePath": "_content/Website",
-      "RelativePath": "images/grid.png",
+      "RelativePath": "images/grid#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "su37g0kp7o",
+      "Integrity": "vGC4VgAWmn/l2yRcJGKHTsyQDeLld6lM/zrCMT5/agE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\grid.png"
+    },
+    {
+      "Identity": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\grid2.png",
+      "SourceId": "Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\",
+      "BasePath": "_content/Website",
+      "RelativePath": "images/grid2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tlmg129i7t",
+      "Integrity": "cc+dzwr3tDE+XE5vBlNyQcQmP9ZJyvwc0aG3KoyPnTo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\grid2.png"
     },
     {
       "Identity": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\red.png",
@@ -174,18 +316,1170 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\",
       "BasePath": "_content/Website",
-      "RelativePath": "images/red.png",
+      "RelativePath": "images/red#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "68zkrlj1ac",
+      "Integrity": "qjGH0cj3pZmYRQomdeFSAFNJz3CPzaMHO+RWzfpIwuY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\red.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetFile": "C:\\Users\\bachi\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.10\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Sep 2024 18:39:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/QuickGrid.razor.js",
+      "AssetFile": "C:\\Users\\bachi\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.10\\staticwebassets\\QuickGrid.razor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Sep 2024 18:21:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w2xcacV3ephxOR9Pqr0HF9HWlkmBBPyZnqwTlmCbB5s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 01:53:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w2xcacV3ephxOR9Pqr0HF9HWlkmBBPyZnqwTlmCbB5s="
+        }
+      ]
+    },
+    {
+      "Route": "app.riains4vu5.css",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w2xcacV3ephxOR9Pqr0HF9HWlkmBBPyZnqwTlmCbB5s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 01:53:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "riains4vu5"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w2xcacV3ephxOR9Pqr0HF9HWlkmBBPyZnqwTlmCbB5s="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Coolvetica Hv Comp.otf",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Hv Comp.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"64JW1idl72evfTNdMfcM+FLfVtpnySuC+rzxBrAk15Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 01:51:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-64JW1idl72evfTNdMfcM+FLfVtpnySuC+rzxBrAk15Y="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Coolvetica Hv Comp.ti7035kgi5.otf",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Hv Comp.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"64JW1idl72evfTNdMfcM+FLfVtpnySuC+rzxBrAk15Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 01:51:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ti7035kgi5"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Coolvetica Hv Comp.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-64JW1idl72evfTNdMfcM+FLfVtpnySuC+rzxBrAk15Y="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Coolvetica Rg Cond.4b2wvjohjn.otf",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg Cond.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sD4mf+RXW6V90B8cTPkLiNrUmVgypFBmxLz+wQeNqP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 01:51:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4b2wvjohjn"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Coolvetica Rg Cond.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sD4mf+RXW6V90B8cTPkLiNrUmVgypFBmxLz+wQeNqP0="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Coolvetica Rg Cond.otf",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg Cond.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sD4mf+RXW6V90B8cTPkLiNrUmVgypFBmxLz+wQeNqP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 01:51:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sD4mf+RXW6V90B8cTPkLiNrUmVgypFBmxLz+wQeNqP0="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Coolvetica Rg Cram.dq4gezprgp.otf",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg Cram.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66588"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9QUkRYgIS8sxMPd6e/SR02sHnhPV/NKSTdVX7FYhHhU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 01:51:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dq4gezprgp"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Coolvetica Rg Cram.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9QUkRYgIS8sxMPd6e/SR02sHnhPV/NKSTdVX7FYhHhU="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Coolvetica Rg Cram.otf",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg Cram.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66588"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9QUkRYgIS8sxMPd6e/SR02sHnhPV/NKSTdVX7FYhHhU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 01:51:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9QUkRYgIS8sxMPd6e/SR02sHnhPV/NKSTdVX7FYhHhU="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Coolvetica Rg It.otf",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg It.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMaacytHKP/YpLmTshVes0UGbwhJ1DFuMi4jux/9fP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 01:51:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMaacytHKP/YpLmTshVes0UGbwhJ1DFuMi4jux/9fP8="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Coolvetica Rg It.slrm05ppzs.otf",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg It.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMaacytHKP/YpLmTshVes0UGbwhJ1DFuMi4jux/9fP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 01:51:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "slrm05ppzs"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Coolvetica Rg It.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMaacytHKP/YpLmTshVes0UGbwhJ1DFuMi4jux/9fP8="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Coolvetica Rg.llxhetjsng.otf",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p6mzG8ZdRCypeqM91YjeNqS7H2EFSSpVv7BV7YY5hUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 01:51:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "llxhetjsng"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Coolvetica Rg.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p6mzG8ZdRCypeqM91YjeNqS7H2EFSSpVv7BV7YY5hUY="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Coolvetica Rg.otf",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p6mzG8ZdRCypeqM91YjeNqS7H2EFSSpVv7BV7YY5hUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 01:51:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p6mzG8ZdRCypeqM91YjeNqS7H2EFSSpVv7BV7YY5hUY="
+        }
+      ]
+    },
+    {
+      "Route": "images/blue.33p2gft0my.png",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\blue.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gZjhzksWT4fQjcSDrrQ0nGRSJ74KrQQU1tnXx1PIAsU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Nov 2024 22:44:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "33p2gft0my"
+        },
+        {
+          "Name": "label",
+          "Value": "images/blue.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gZjhzksWT4fQjcSDrrQ0nGRSJ74KrQQU1tnXx1PIAsU="
+        }
+      ]
+    },
+    {
+      "Route": "images/blue.png",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\blue.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gZjhzksWT4fQjcSDrrQ0nGRSJ74KrQQU1tnXx1PIAsU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Nov 2024 22:44:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gZjhzksWT4fQjcSDrrQ0nGRSJ74KrQQU1tnXx1PIAsU="
+        }
+      ]
+    },
+    {
+      "Route": "images/green.4edmnj8kab.png",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\green.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tO8sHwosqPnin0fe2H66CtHaebZ3FOCm3yKke6uW1A0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Nov 2024 22:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4edmnj8kab"
+        },
+        {
+          "Name": "label",
+          "Value": "images/green.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tO8sHwosqPnin0fe2H66CtHaebZ3FOCm3yKke6uW1A0="
+        }
+      ]
+    },
+    {
+      "Route": "images/green.png",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\green.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tO8sHwosqPnin0fe2H66CtHaebZ3FOCm3yKke6uW1A0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Nov 2024 22:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tO8sHwosqPnin0fe2H66CtHaebZ3FOCm3yKke6uW1A0="
+        }
+      ]
+    },
+    {
+      "Route": "images/grid.png",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\grid.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vGC4VgAWmn/l2yRcJGKHTsyQDeLld6lM/zrCMT5/agE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 02:31:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vGC4VgAWmn/l2yRcJGKHTsyQDeLld6lM/zrCMT5/agE="
+        }
+      ]
+    },
+    {
+      "Route": "images/grid.su37g0kp7o.png",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\grid.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vGC4VgAWmn/l2yRcJGKHTsyQDeLld6lM/zrCMT5/agE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 02:31:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "su37g0kp7o"
+        },
+        {
+          "Name": "label",
+          "Value": "images/grid.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vGC4VgAWmn/l2yRcJGKHTsyQDeLld6lM/zrCMT5/agE="
+        }
+      ]
+    },
+    {
+      "Route": "images/grid2.png",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\grid2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1732"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cc+dzwr3tDE+XE5vBlNyQcQmP9ZJyvwc0aG3KoyPnTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 21:59:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cc+dzwr3tDE+XE5vBlNyQcQmP9ZJyvwc0aG3KoyPnTo="
+        }
+      ]
+    },
+    {
+      "Route": "images/grid2.tlmg129i7t.png",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\grid2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1732"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cc+dzwr3tDE+XE5vBlNyQcQmP9ZJyvwc0aG3KoyPnTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 21:59:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tlmg129i7t"
+        },
+        {
+          "Name": "label",
+          "Value": "images/grid2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cc+dzwr3tDE+XE5vBlNyQcQmP9ZJyvwc0aG3KoyPnTo="
+        }
+      ]
+    },
+    {
+      "Route": "images/red.68zkrlj1ac.png",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\red.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qjGH0cj3pZmYRQomdeFSAFNJz3CPzaMHO+RWzfpIwuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Nov 2024 22:44:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "68zkrlj1ac"
+        },
+        {
+          "Name": "label",
+          "Value": "images/red.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qjGH0cj3pZmYRQomdeFSAFNJz3CPzaMHO+RWzfpIwuY="
+        }
+      ]
+    },
+    {
+      "Route": "images/red.png",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\red.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qjGH0cj3pZmYRQomdeFSAFNJz3CPzaMHO+RWzfpIwuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Nov 2024 22:44:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qjGH0cj3pZmYRQomdeFSAFNJz3CPzaMHO+RWzfpIwuY="
+        }
+      ]
+    },
+    {
+      "Route": "Website.bundle.scp.css",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Heew1P7JDPzHthc5k1A73BJgOrURp0otZLpnvPqaBIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Nov 2024 04:48:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Heew1P7JDPzHthc5k1A73BJgOrURp0otZLpnvPqaBIs="
+        }
+      ]
+    },
+    {
+      "Route": "Website.styles.css",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Website.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "620"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KRLKdyOKiyxWkiWHjQ1qwJUhVBhdjDuJ4XjxijrL7j4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Nov 2024 19:56:05 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KRLKdyOKiyxWkiWHjQ1qwJUhVBhdjDuJ4XjxijrL7j4="
+        }
+      ]
+    },
+    {
+      "Route": "Website.vdbduwor6o.bundle.scp.css",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Heew1P7JDPzHthc5k1A73BJgOrURp0otZLpnvPqaBIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Nov 2024 04:48:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vdbduwor6o"
+        },
+        {
+          "Name": "label",
+          "Value": "Website.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Heew1P7JDPzHthc5k1A73BJgOrURp0otZLpnvPqaBIs="
+        }
+      ]
+    },
+    {
+      "Route": "Website.xqqj0t3ljf.styles.css",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Website.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "620"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KRLKdyOKiyxWkiWHjQ1qwJUhVBhdjDuJ4XjxijrL7j4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Nov 2024 19:56:05 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xqqj0t3ljf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KRLKdyOKiyxWkiWHjQ1qwJUhVBhdjDuJ4XjxijrL7j4="
+        },
+        {
+          "Name": "label",
+          "Value": "Website.styles.css"
+        }
+      ]
     }
   ]
 }

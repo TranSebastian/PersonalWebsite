@@ -2,11 +2,31 @@
   "Files": [
     {
       "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Website.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Website.vdbduwor6o.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Hv Comp.otf",
+      "PackagePath": "staticwebassets\\fonts\\Coolvetica Hv Comp.otf"
+    },
+    {
+      "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg Cond.otf",
+      "PackagePath": "staticwebassets\\fonts\\Coolvetica Rg Cond.otf"
+    },
+    {
+      "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg Cram.otf",
+      "PackagePath": "staticwebassets\\fonts\\Coolvetica Rg Cram.otf"
+    },
+    {
+      "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg It.otf",
+      "PackagePath": "staticwebassets\\fonts\\Coolvetica Rg It.otf"
+    },
+    {
+      "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg.otf",
+      "PackagePath": "staticwebassets\\fonts\\Coolvetica Rg.otf"
     },
     {
       "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\blue.png",
@@ -21,8 +41,16 @@
       "PackagePath": "staticwebassets\\images\\grid.png"
     },
     {
+      "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\grid2.png",
+      "PackagePath": "staticwebassets\\images\\grid2.png"
+    },
+    {
       "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\red.png",
       "PackagePath": "staticwebassets\\images\\red.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Website.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Website.Microsoft.AspNetCore.StaticWebAssets.props",

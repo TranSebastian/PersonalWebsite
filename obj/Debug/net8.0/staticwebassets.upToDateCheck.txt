@@ -1,0 +1,11 @@
+wwwroot\app.css
+wwwroot\fonts\Coolvetica Hv Comp.otf
+wwwroot\fonts\Coolvetica Rg Cond.otf
+wwwroot\fonts\Coolvetica Rg Cram.otf
+wwwroot\fonts\Coolvetica Rg It.otf
+wwwroot\fonts\Coolvetica Rg.otf
+wwwroot\images\blue.png
+wwwroot\images\green.png
+wwwroot\images\grid.png
+wwwroot\images\grid2.png
+wwwroot\images\red.png
