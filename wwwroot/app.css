@@ -30,14 +30,32 @@ h1:focus {
 
 header {
     font-family: coolvetica;
+    margin-bottom: 20px;
 }
 
 h1 {
+    display: inline;
     font-size: 150px;
-    margin: 0px;
+    border-right: 20px solid transparent;
+    margin: 0;
+    white-space: nowrap;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: step-end;
+    animation-iteration-count: 4;
 }
 
-html, body {
+@keyframes blink {
+    from, to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+html {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -69,16 +87,10 @@ html, body {
     0% {
         left: 0;
     }
-
     100% {
         left: -100%;
     }
 }
-
-main{
-    outline: solid orange;
-}
-
 
 @font-face {
     font-family: "coolvetica";
@@ -86,7 +98,16 @@ main{
 }
 
 .buttonContainer {
-    font-size: 50px;
     display: flex;
     justify-content: space-around;
 }
+
+    .buttonContainer h2 {
+        margin: 0px 0px 5px 0px;
+        font-size: 50px;
+        border-right: 7px solid transparent;
+    }
+    
+    h2:hover {
+        animation: blink 1s step-end infinite;
+    }

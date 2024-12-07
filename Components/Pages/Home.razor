@@ -1,22 +1,19 @@
-﻿@page "/"
+﻿@using Website.Components.Layout
+@page "/"
+@layout MainLayout
 
-<PageTitle>Home</PageTitle>
+<div>
+    <div>
+        <h1>About me!</h1>
 
-<header>
-    <h1>sebastian tran.</h1>
-
-    <div class="buttonContainer">
-        <div>ASA</div>
-        <div>CS</div>
-        <div>About me</div>
+        <p>
+            Hi! I'm Sebastian Tran! I'm a junior computer science student at west chester university
+        </p>
     </div>
 
-    <div class="image-container">
-        <div class="overlay"></div>
+    <img />
+</div>
 
-        <img src="images/red.png">
-        <img src="images/green.png">
-        <img src="images/blue.png">
-    </div>
-    
-</header>
+@code {
+
+}

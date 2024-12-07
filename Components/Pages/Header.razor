@@ -1,0 +1,57 @@
+﻿@rendermode InteractiveServer
+@inject NavigationManager NavManager
+
+<h1>
+    @DisplayedText
+</h1>
+
+<div class="buttonContainer">
+    <h2 @onclick="GoASA">ASA</h2>
+    <h2>CS</h2>
+    <h2 @onclick="GoHome">About me</h2>
+</div>
+
+@code{
+    string text = "sebastian tran.";
+    string DisplayedText = "";
+    bool IsRunning = false;
+    int CurrentIndex = 0;
+
+    private async Task StartTypewriter()
+    {
+        if (IsRunning)
+            return;
+
+        CurrentIndex = 0;
+        DisplayedText = "";
+        IsRunning = true;
+
+        while (CurrentIndex < text.Length && IsRunning)
+        {
+            DisplayedText += text[CurrentIndex];
+            CurrentIndex++;
+            StateHasChanged();
+            await Task.Delay(240); // Delay to simulate typing
+        }
+
+        IsRunning = false;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await StartTypewriter();
+        }
+    }
+    
+    private void GoHome()
+    {
+        NavManager.NavigateTo("/");
+    }
+
+    private void GoASA()
+    {
+        NavManager.NavigateTo("/asa");
+    }
+}

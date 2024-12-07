@@ -2,6 +2,7 @@
 using Website.Components.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Net.Mime;
 
 namespace Website.Components.Controllers;
 
@@ -80,4 +81,65 @@ public class ImageController : ControllerBase
             return NotFound();
         }
     }
+
+    [HttpGet("getevent/{Event}")]
+    public async Task<ActionResult<List<int>>> GetEvent(string Event)
+    {
+        return await _imageContext.Images.AsNoTracking().Where(x => x.Event == Event).Select(item => item.Id).ToListAsync();
+    }
+
+    [HttpGet("getImage/{Id}")]
+    public async Task<IActionResult> GetImage(int Id)
+    {
+        var image = await _imageContext.Images.FindAsync(Id);
+        if (image is not null && image.Path is not null && image.Event is not null)
+        {
+            string imagePath = Path.Combine("C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Pictures\\", image.Event, image.Path);
+            //var stream = new FileStream(imagePath, FileMode.Open, FileAccess.Read);
+            byte[] fileBytes = await System.IO.File.ReadAllBytesAsync(imagePath);
+            return File(fileBytes, "image/jpeg");
+
+            //return File(stream, "image/jpeg");
+        }
+
+        return NotFound();
+    }
+
+    [HttpGet("getEventImages/{Event}")]
+    public async Task<ActionResult<List<string>>> GetEventImages (string Event)
+    {
+        List<Image> ids = await _imageContext.Images.AsNoTracking().Where(x => x.Event == Event).ToListAsync();
+        List<string> urls = new List<string>();
+
+
+        if (ids is not null)
+        {
+            foreach (Image id in ids)
+            {
+                if (id.Path is not null && id.Event is not null)
+                {
+                    string imagePath = Path.Combine("C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Pictures\\", id.Event, id.Path);
+                    
+                    byte[] fileBytes = await System.IO.File.ReadAllBytesAsync(imagePath);
+
+                    // Convert the byte array to a base64 string
+                    string base64String = Convert.ToBase64String(fileBytes);
+
+                    // Set the image source
+                    string imageUrl = $"data:image/jpeg;base64,{base64String}";
+
+                    urls.Add(imageUrl);
+                }
+            }
+            return urls;
+        }
+        else
+        {
+            return NotFound();
+        }
+        
+        
+
+    }
+
 }
