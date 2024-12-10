@@ -2,7 +2,7 @@
 using Website.Components.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Net.Mime;
+
 
 namespace Website.Components.Controllers;
 
@@ -95,11 +95,9 @@ public class ImageController : ControllerBase
         if (image is not null && image.Path is not null && image.Event is not null)
         {
             string imagePath = Path.Combine("C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Pictures\\", image.Event, image.Path);
-            //var stream = new FileStream(imagePath, FileMode.Open, FileAccess.Read);
             byte[] fileBytes = await System.IO.File.ReadAllBytesAsync(imagePath);
-            return File(fileBytes, "image/jpeg");
 
-            //return File(stream, "image/jpeg");
+            return File(fileBytes, "image/jpeg");
         }
 
         return NotFound();

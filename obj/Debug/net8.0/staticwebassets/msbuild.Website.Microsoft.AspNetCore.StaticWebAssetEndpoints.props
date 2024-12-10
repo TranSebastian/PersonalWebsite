@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/Website/app.7d0fm7idnr.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7d0fm7idnr"},{"Name":"integrity","Value":"sha256-m2EkGG0W6yJjLRfvovOJTNlwAwyVjBBLpXrisYUfh7U="},{"Name":"label","Value":"_content/Website/app.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3715"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022m2EkGG0W6yJjLRfvovOJTNlwAwyVjBBLpXrisYUfh7U=\u0022"},{"Name":"Last-Modified","Value":"Sun, 01 Dec 2024 02:48:36 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Website/app.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-m2EkGG0W6yJjLRfvovOJTNlwAwyVjBBLpXrisYUfh7U="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3715"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022m2EkGG0W6yJjLRfvovOJTNlwAwyVjBBLpXrisYUfh7U=\u0022"},{"Name":"Last-Modified","Value":"Sun, 01 Dec 2024 02:48:36 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xbF94vVcz75Ee3ZyIm9SGYXughTvZ5CqYyvV6gBpFSU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3769"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xbF94vVcz75Ee3ZyIm9SGYXughTvZ5CqYyvV6gBpFSU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 19:32:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Website/app.x10abimr53.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x10abimr53"},{"Name":"integrity","Value":"sha256-xbF94vVcz75Ee3ZyIm9SGYXughTvZ5CqYyvV6gBpFSU="},{"Name":"label","Value":"_content/Website/app.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3769"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xbF94vVcz75Ee3ZyIm9SGYXughTvZ5CqYyvV6gBpFSU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 19:32:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Website/fonts/Coolvetica Hv Comp.otf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Coolvetica Hv Comp.otf'))</AssetFile>

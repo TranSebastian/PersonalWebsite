@@ -7,64 +7,35 @@
 
 ASA page!
 
-@foreach (string url in urls){
-    @if (isLoading)
+@if (rendered is not null)
+{
+    foreach (int image in rendered)
     {
-        <p>Loading image...</p>
+        <ImageComponent Id="image"></ImageComponent>
     }
-    else if (!string.IsNullOrEmpty(errorMessage))
-    {
-        <p style="color:red">@errorMessage</p>
-    }
-    else if (!string.IsNullOrEmpty(url))
-    {
-        <img src="@url" alt="Loaded Image" style="max-width:100%; height:auto;" />
-    }
-    else
-    {
-        <p>No image loaded.</p>
-    }
+}
+else
+{
+    <div>loading still...</div>
 }
 
 @code {
-    private List<int>? imageFiles;
-    private List<string> urls = new List<string>();
-    private bool isLoading = false;
-    private string? errorMessage;
-
-    protected override async Task OnInitializedAsync()
-    {
-        imageFiles = await Http.GetFromJsonAsync<List<int>>(NavManager.BaseUri +"Image/getEvent/ASA");
-
-        try 
+    private List<int> rendered = new List<int>();
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {   
+        if (firstRender)
         {
-            if (imageFiles is not null)    
+            List<int>? images = await Http.GetFromJsonAsync<List<int>>(NavManager.BaseUri + "Image/getEvent/ASA");
+            if (images is not null)
             {
-                isLoading = true;
-                errorMessage = null;
-
-                foreach (int image in imageFiles)
+                foreach (int image in images)
                 {
-                    var imageBytes = await Http.GetByteArrayAsync(NavManager.BaseUri + $"image/getImage/{image}");
-
-                    // Convert the byte array to a base64 string
-                    string base64String = Convert.ToBase64String(imageBytes);
-
-                    // Set the image source
-                    string imageUrl = $"data:image/jpeg;base64,{base64String}";
-
-                    urls.Add(imageUrl);
+                    rendered.Add(image);
+                    StateHasChanged(); // Update the UI
+                    await Task.Delay(2000); // Delay between each image
                 }
             }
-            
         }
-        catch (Exception ex)
-        {
-            errorMessage = $"Error loading image: {ex.Message}";
-        }
-        finally
-        {
-            isLoading = false;
-        }        
     }
+
 }

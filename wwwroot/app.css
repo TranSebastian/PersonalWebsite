@@ -57,7 +57,7 @@ h1 {
 
 html {
     max-width: 100%;
-    overflow-x: hidden;
+    
 }
 
 .image-container {
@@ -74,6 +74,7 @@ html {
     }
 
 .overlay {
+    overflow-x: hidden;
     position: absolute;
     z-index: 2;
     width: 200%;
@@ -103,6 +104,8 @@ html {
 }
 
     .buttonContainer h2 {
+        max-width: 33%;
+        height: auto;
         margin: 0px 0px 5px 0px;
         font-size: 50px;
         border-right: 7px solid transparent;
