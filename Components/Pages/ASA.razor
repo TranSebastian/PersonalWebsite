@@ -5,9 +5,19 @@
 @layout MainLayout
 @rendermode InteractiveServer
 
-ASA page!
+<h1>ASA</h1>
 
-@if (rendered is not null)
+<p>
+    I'm currently the secretary of West Chester University's Asian student association! <br />
+
+    I write all of the emails, but I also get to take pictures! <br />
+
+    below are some of the pictures I've taken for ASA! <br />
+</p>
+
+
+
+@if (rendered.Any())
 {
     foreach (int image in rendered)
     {
@@ -31,8 +41,8 @@ else
                 foreach (int image in images)
                 {
                     rendered.Add(image);
-                    StateHasChanged(); // Update the UI
-                    await Task.Delay(2000); // Delay between each image
+                    await Task.Delay(2000); // between each image
+                    StateHasChanged();
                 }
             }
         }

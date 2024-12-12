@@ -1,0 +1,19 @@
+﻿.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+    .buttonContainer h2 {
+        margin: 0px 0px 5px 0px;
+    }
+
+        .buttonContainer h2:hover {
+            text-decoration: underline;
+            text-decoration-thickness: 3px;
+        }
+
+.current {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}

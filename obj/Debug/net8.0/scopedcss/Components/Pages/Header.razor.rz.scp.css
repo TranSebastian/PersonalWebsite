@@ -1,0 +1,19 @@
+.buttonContainer[b-rtyuzvs92t] {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+    .buttonContainer h2[b-rtyuzvs92t] {
+        margin: 0px 0px 5px 0px;
+    }
+
+        .buttonContainer h2:hover[b-rtyuzvs92t] {
+            text-decoration: underline;
+            text-decoration-thickness: 3px;
+        }
+
+.current[b-rtyuzvs92t] {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}

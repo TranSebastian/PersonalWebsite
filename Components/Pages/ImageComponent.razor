@@ -8,7 +8,7 @@
 }
 else
 {
-    <img src="@imageUrl" style="height:auto; width:100%"/>
+    <img src="@imageUrl" style="height:auto; width:100%; margin-top: 10px"/>
 }
 
 
@@ -17,22 +17,10 @@ else
     [Parameter]
     public int? Id { get; set; }
 
-    private string? imageUrl;
+    string? imageUrl;
 
-    protected override async Task OnAfterRenderAsync(bool firstRender)
+    protected override void OnParametersSet()
     {
-        if (firstRender)
-        {
-            // Call the API and retrieve the byte array
-            var imageBytes = await Http.GetByteArrayAsync(NavManager.BaseUri + $"Image/getImage/{Id}");
-
-            // Convert the byte array to a base64 string
-            string base64String = Convert.ToBase64String(imageBytes);
-
-            // Set the image source
-            imageUrl = $"data:image/jpeg;base64,{base64String}";
-
-            StateHasChanged();
-        }       
+        imageUrl = NavManager.BaseUri + $"Image/getImage/{Id}";
     }
 }

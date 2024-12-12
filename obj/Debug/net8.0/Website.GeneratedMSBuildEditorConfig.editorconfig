@@ -36,12 +36,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBU0EucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bachi/Documents/code projects/Website/Website/Components/Pages/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+[C:/Users/bachi/Documents/code projects/Website/Website/Components/Pages/CS.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDUy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bachi/Documents/code projects/Website/Website/Components/Pages/Header.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIZWFkZXIucmF6b3I=
+[C:/Users/bachi/Documents/code projects/Website/Website/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bachi/Documents/code projects/Website/Website/Components/Pages/Home.razor]
@@ -63,3 +63,7 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/bachi/Documents/code projects/Website/Website/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-4xpicsu201
+
+[C:/Users/bachi/Documents/code projects/Website/Website/Components/Pages/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rtyuzvs92t

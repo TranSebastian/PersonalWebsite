@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>x10abimr53</Fingerprint>
-      <Integrity>xbF94vVcz75Ee3ZyIm9SGYXughTvZ5CqYyvV6gBpFSU=</Integrity>
+      <Fingerprint>ai14ebbykj</Fingerprint>
+      <Integrity>oupYl7hQNS9nbRW3oMr64z57vj6DHAg+KRz++0pXPuQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</OriginalItemSpec>
@@ -198,23 +198,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Website.vdbduwor6o.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Website.ymeau8c8xc.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>Website</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Website</BasePath>
-      <RelativePath>Website.vdbduwor6o.bundle.scp.css</RelativePath>
+      <RelativePath>Website.ymeau8c8xc.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>vdbduwor6o</Fingerprint>
-      <Integrity>Heew1P7JDPzHthc5k1A73BJgOrURp0otZLpnvPqaBIs=</Integrity>
+      <Fingerprint>ymeau8c8xc</Fingerprint>
+      <Integrity>ZtlqugsOT+2JjrtpukN0b8dG6dctoORSKdPPIHubMpE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Website.vdbduwor6o.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Website.ymeau8c8xc.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

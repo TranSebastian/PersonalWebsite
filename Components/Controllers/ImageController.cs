@@ -94,10 +94,11 @@ public class ImageController : ControllerBase
         var image = await _imageContext.Images.FindAsync(Id);
         if (image is not null && image.Path is not null && image.Event is not null)
         {
-            string imagePath = Path.Combine("C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Pictures\\", image.Event, image.Path);
-            byte[] fileBytes = await System.IO.File.ReadAllBytesAsync(imagePath);
+            string imagePath = Path.Combine(Directory.GetCurrentDirectory(), "Pictures", image.Event, image.Path);
 
-            return File(fileBytes, "image/jpeg");
+            var stream = new FileStream(imagePath, FileMode.Open, FileAccess.Read);
+            
+            return File(stream, "image/jpeg");
         }
 
         return NotFound();

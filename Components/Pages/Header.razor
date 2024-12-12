@@ -5,17 +5,28 @@
     @DisplayedText
 </h1>
 
-<div class="buttonContainer">
-    <h2 @onclick="GoASA">ASA</h2>
-    <h2>CS</h2>
-    <h2 @onclick="GoHome">About me</h2>
-</div>
+<nav class="buttonContainer">
+    <h2 class="@asa" @onclick="GoASA">ASA</h2>
+    <h2 class="@cs" @onclick="GoCS">CS</h2>
+    <h2 class="@home" @onclick="GoHome">About me</h2>
+</nav>
 
 @code{
-    string text = "sebastian tran.";
+    string text = "ebastian tran.";
     string DisplayedText = "";
     bool IsRunning = false;
     int CurrentIndex = 0;
+
+    string asa = string.Empty;
+    string cs = string.Empty;
+    string home = string.Empty;
+
+    private void newPage (string page)
+    {
+        asa = page.Equals("/asa") ? "current" : string.Empty;
+        cs = page.Equals("/cs") ? "current" : string.Empty;
+        home = page.Equals("/") ? "current" : string.Empty;
+    }
 
     private async Task StartTypewriter()
     {
@@ -23,7 +34,7 @@
             return;
 
         CurrentIndex = 0;
-        DisplayedText = "";
+        DisplayedText = "s";
         IsRunning = true;
 
         while (CurrentIndex < text.Length && IsRunning)
@@ -41,17 +52,26 @@
     {
         if (firstRender)
         {
+            newPage(new Uri(NavManager.Uri).PathAndQuery);
             await StartTypewriter();
         }
     }
-    
+
     private void GoHome()
     {
         NavManager.NavigateTo("/");
+        newPage("/");
     }
 
     private void GoASA()
     {
         NavManager.NavigateTo("/asa");
+        newPage("/asa");
+    }
+
+    private void GoCS()
+    {
+        NavManager.NavigateTo("/cs");
+        newPage("/cs");
     }
 }
