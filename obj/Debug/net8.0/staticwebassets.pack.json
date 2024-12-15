@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Website.ymeau8c8xc.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Website.vs9bxof1jg.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\app.css",
@@ -43,6 +43,10 @@
     {
       "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\grid2.png",
       "PackagePath": "staticwebassets\\images\\grid2.png"
+    },
+    {
+      "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\placeHolder.jpg",
+      "PackagePath": "staticwebassets\\images\\placeHolder.jpg"
     },
     {
       "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\red.png",

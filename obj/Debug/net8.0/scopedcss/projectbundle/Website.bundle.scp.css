@@ -51,3 +51,34 @@
     text-decoration: underline;
     text-decoration-thickness: 3px;
 }
+
+h1[b-rtyuzvs92t]{
+    margin-left: 20px;
+}
+/* _content/Website/Components/Pages/Home.razor.rz.scp.css */
+.middle[b-hav1j0b5ua] {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; /* Vertically center the images */
+
+}
+    .middle p[b-hav1j0b5ua] {
+        font-size: 25pt;
+    }
+
+    .middle h1[b-hav1j0b5ua] {
+        font-size: 55pt;
+    }
+
+    .middle img[b-hav1j0b5ua] {
+        margin: 10px;
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+html[b-hav1j0b5ua], body[b-hav1j0b5ua]{
+   margin: 0px;
+   padding: 0px;
+}

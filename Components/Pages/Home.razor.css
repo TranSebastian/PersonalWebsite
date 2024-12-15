@@ -1,0 +1,26 @@
+﻿.middle {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; /* Vertically center the images */
+
+}
+    .middle p {
+        font-size: 25pt;
+    }
+
+    .middle h1 {
+        font-size: 55pt;
+    }
+
+    .middle img {
+        margin: 10px;
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+html, body{
+   margin: 0px;
+   padding: 0px;
+}

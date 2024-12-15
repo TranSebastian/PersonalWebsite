@@ -8,4 +8,5 @@ wwwroot\images\blue.png
 wwwroot\images\green.png
 wwwroot\images\grid.png
 wwwroot\images\grid2.png
+wwwroot\images\placeHolder.jpg
 wwwroot\images\red.png
