@@ -11,19 +11,57 @@ html, body {
 }
 
 p {
-    margin: 0;
-    font-family: coolvetica;
-    font-size: clamp(1rem, 5vw, 75px);
+    
 }
 
 h1 {
     font-family: coolvetica;
-    font-size: clamp(1rem, 10vw, 150px); /* Min size, preferred size, max size */
-    margin: 0;
-    letter-spacing: 3px;
+    margin: 0px;
+    font-size: 70pt;
 }
 
 h2 {
+    font-size: 55pt;
+    margin: 0px;
     font-family: coolvetica;
-    font-size: clamp(1rem, 5vw, 75px);
+    letter-spacing: 3px;
+}
+
+h3 {
+    margin: 0px;
+    font-size: 30pt;
+    font-family: coolvetica;
+}
+
+h4 {
+    margin: 0px;
+    font-family: coolvetica;
+    font-size: 20pt;
+}
+
+.threequarters {
+   margin-left: 35px;
+   margin-right: 35px;
+}
+
+@media screen and (min-width: 20in) {
+    .threequarters {
+        margin-left: 16.67%;
+        margin-right: 16.67%;
+    }
+}
+
+
+@media screen and (max-width: 8in) {
+    h3 {
+        font-size: 20pt;
+    }
+
+    h2 {
+        font-size: 40pt;
+    }
+
+    h1 {
+        font-size: 40pt;
+    }
 }

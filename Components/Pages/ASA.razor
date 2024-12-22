@@ -5,29 +5,29 @@
 @layout MainLayout
 @rendermode InteractiveServer
 
-<h1>ASA</h1>
+<div class="threequarters">
+    <h1>ASA</h1>
 
-<p>
-    I'm currently the secretary of West Chester University's Asian student association! <br />
+    <h3>
+        I'm currently the secretary of WCU's Asian Students Association! <br />
 
-    I write all of the emails, but I also get to take pictures! <br />
+        I write all of the emails, but I also get to take pictures too!
 
-    below are some of the pictures I've taken for ASA! <br />
-</p>
+        below are some of the pictures I've taken for ASA! <br />
+    </h3>
 
-
-
-@if (rendered.Any())
-{
-    foreach (int image in rendered)
+    @if (rendered.Any())
     {
-        <ImageComponent Id="image"></ImageComponent>
+        foreach (int image in rendered)
+        {
+            <ImageComponent Id="image"></ImageComponent>
+        }
     }
-}
-else
-{
-    <div>loading still...</div>
-}
+    else
+    {
+        <div>loading still...</div>
+    }
+</div>
 
 @code {
     private List<int> rendered = new List<int>();

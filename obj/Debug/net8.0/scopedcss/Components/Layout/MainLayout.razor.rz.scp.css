@@ -1,6 +1,6 @@
 .image-container[b-4xpicsu201] {
     display: flex;
-    height: 350px;
+    height: 400px;
     justify-content: center; /* Horizontally center the images */
     align-items: center; /* Vertically center the images */
 }
@@ -8,17 +8,33 @@
     .image-container img[b-4xpicsu201] {
         margin: 2vw;
         height: auto;
-        max-width: 33%;
+        max-width: 100%;
     }
 
 .overlay[b-4xpicsu201] {
     position: absolute;
     z-index: 2;
     width: 200%;
-    height: 350px;
+    height: 400px;
     background-image: url('images/grid2.png');
     background-repeat: repeat;
     animation: leftRight-b-4xpicsu201 90s linear infinite;
+}
+
+.hidden[b-4xpicsu201] {
+    position: absolute;
+    z-index: 3;
+    width: 66.67%;
+    height: 400px;
+    border-left: 16.67vw solid white;
+    border-right: 16.67vw solid white;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 20in) {
+    .hidden[b-4xpicsu201] {
+        width: 100%;
+    }
 }
 
 @keyframes leftRight-b-4xpicsu201 {
@@ -29,4 +45,10 @@
     100% {
         left: -100%;
     }
+}
+
+
+header[b-4xpicsu201] {
+    margin-top: 20px;
+    margin-bottom: 50px;
 }

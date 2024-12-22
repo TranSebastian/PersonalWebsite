@@ -1,14 +1,13 @@
 .buttonContainer[b-rtyuzvs92t] {
     display: flex;
     justify-content: space-around;
-    
 }
 
-    .buttonContainer h2[b-rtyuzvs92t] {
-        margin: 0px 0px 5px 0px;
+    .buttonContainer h3[b-rtyuzvs92t] {
+        margin: 0px 0px 10px 0px;
     }
 
-        .buttonContainer h2:hover[b-rtyuzvs92t] {
+        .buttonContainer h3:hover[b-rtyuzvs92t] {
             text-decoration: underline;
             text-decoration-thickness: 3px;
         }
@@ -18,6 +17,6 @@
     text-decoration-thickness: 3px;
 }
 
-h1[b-rtyuzvs92t]{
-    margin-left: 20px;
+@media screen and (min-width: 20in) {
+
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/KTUlBXtcDtjRJfO9eruv3A09/mRuR1aUixaM0VkZtU=",
+  "Hash": "cLRkdflZ9/EG4ENwrW7U3+GKcPOLY85DmRTm1x7PxXk=",
   "Source": "Website",
   "BasePath": "_content/Website",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "jbjkf4of7z",
-      "Integrity": "z90rQG/VFO1JVU3VYTHZgJO5JhT5OyS3AZYZ5E7cjv0=",
+      "Fingerprint": "lx8x4ygg4h",
+      "Integrity": "efcUwwGJG3hB4k8GsbPgLtMC1MuIyjYORalt66BrxhE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Website.styles.css"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "vs9bxof1jg",
-      "Integrity": "oagHEGwXqWuoMKlXyURKnES69hzFZF2vqRwxDKELixs=",
+      "Fingerprint": "ezewfkaaf8",
+      "Integrity": "Jo1fdgb0KXu0J1MDLT2kLAJRXpFVx22neOKyRYO/400=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "f5j3ccisgw",
-      "Integrity": "TSAcs0SJwpidxLnGXOSSgTamvVNTUinc2463qjkqu6A=",
+      "Fingerprint": "p19n2a2z2j",
+      "Integrity": "jRfNAjwm9Mxiqb9PqPWTjyUym3UNoBZPvlDmfpBviO8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -439,7 +439,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "559"
+          "Value": "947"
         },
         {
           "Name": "Content-Type",
@@ -447,11 +447,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TSAcs0SJwpidxLnGXOSSgTamvVNTUinc2463qjkqu6A=\""
+          "Value": "\"jRfNAjwm9Mxiqb9PqPWTjyUym3UNoBZPvlDmfpBviO8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 21:12:40 GMT"
+          "Value": "Sun, 22 Dec 2024 01:49:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -461,12 +461,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TSAcs0SJwpidxLnGXOSSgTamvVNTUinc2463qjkqu6A="
+          "Value": "sha256-jRfNAjwm9Mxiqb9PqPWTjyUym3UNoBZPvlDmfpBviO8="
         }
       ]
     },
     {
-      "Route": "app.f5j3ccisgw.css",
+      "Route": "app.p19n2a2z2j.css",
       "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -476,7 +476,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "559"
+          "Value": "947"
         },
         {
           "Name": "Content-Type",
@@ -484,11 +484,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TSAcs0SJwpidxLnGXOSSgTamvVNTUinc2463qjkqu6A=\""
+          "Value": "\"jRfNAjwm9Mxiqb9PqPWTjyUym3UNoBZPvlDmfpBviO8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 21:12:40 GMT"
+          "Value": "Sun, 22 Dec 2024 01:49:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -498,7 +498,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "f5j3ccisgw"
+          "Value": "p19n2a2z2j"
         },
         {
           "Name": "label",
@@ -506,7 +506,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TSAcs0SJwpidxLnGXOSSgTamvVNTUinc2463qjkqu6A="
+          "Value": "sha256-jRfNAjwm9Mxiqb9PqPWTjyUym3UNoBZPvlDmfpBviO8="
         }
       ]
     },
@@ -1423,7 +1423,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1699"
+          "Value": "2335"
         },
         {
           "Name": "Content-Type",
@@ -1431,11 +1431,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oagHEGwXqWuoMKlXyURKnES69hzFZF2vqRwxDKELixs=\""
+          "Value": "\"Jo1fdgb0KXu0J1MDLT2kLAJRXpFVx22neOKyRYO/400=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 03:34:07 GMT"
+          "Value": "Sun, 22 Dec 2024 03:25:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1445,12 +1445,57 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oagHEGwXqWuoMKlXyURKnES69hzFZF2vqRwxDKELixs="
+          "Value": "sha256-Jo1fdgb0KXu0J1MDLT2kLAJRXpFVx22neOKyRYO/400="
         }
       ]
     },
     {
-      "Route": "Website.jbjkf4of7z.styles.css",
+      "Route": "Website.ezewfkaaf8.bundle.scp.css",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jo1fdgb0KXu0J1MDLT2kLAJRXpFVx22neOKyRYO/400=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 03:25:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ezewfkaaf8"
+        },
+        {
+          "Name": "label",
+          "Value": "Website.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jo1fdgb0KXu0J1MDLT2kLAJRXpFVx22neOKyRYO/400="
+        }
+      ]
+    },
+    {
+      "Route": "Website.lx8x4ygg4h.styles.css",
       "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Website.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1464,7 +1509,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1821"
+          "Value": "2457"
         },
         {
           "Name": "Content-Type",
@@ -1472,11 +1517,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z90rQG/VFO1JVU3VYTHZgJO5JhT5OyS3AZYZ5E7cjv0=\""
+          "Value": "\"efcUwwGJG3hB4k8GsbPgLtMC1MuIyjYORalt66BrxhE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 03:34:07 GMT"
+          "Value": "Sun, 22 Dec 2024 03:25:29 GMT"
         },
         {
           "Name": "Link",
@@ -1486,11 +1531,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jbjkf4of7z"
+          "Value": "lx8x4ygg4h"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z90rQG/VFO1JVU3VYTHZgJO5JhT5OyS3AZYZ5E7cjv0="
+          "Value": "sha256-efcUwwGJG3hB4k8GsbPgLtMC1MuIyjYORalt66BrxhE="
         },
         {
           "Name": "label",
@@ -1513,7 +1558,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1821"
+          "Value": "2457"
         },
         {
           "Name": "Content-Type",
@@ -1521,11 +1566,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z90rQG/VFO1JVU3VYTHZgJO5JhT5OyS3AZYZ5E7cjv0=\""
+          "Value": "\"efcUwwGJG3hB4k8GsbPgLtMC1MuIyjYORalt66BrxhE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 03:34:07 GMT"
+          "Value": "Sun, 22 Dec 2024 03:25:29 GMT"
         },
         {
           "Name": "Link",
@@ -1535,52 +1580,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z90rQG/VFO1JVU3VYTHZgJO5JhT5OyS3AZYZ5E7cjv0="
-        }
-      ]
-    },
-    {
-      "Route": "Website.vs9bxof1jg.bundle.scp.css",
-      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1699"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oagHEGwXqWuoMKlXyURKnES69hzFZF2vqRwxDKELixs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 03:34:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vs9bxof1jg"
-        },
-        {
-          "Name": "label",
-          "Value": "Website.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-oagHEGwXqWuoMKlXyURKnES69hzFZF2vqRwxDKELixs="
+          "Value": "sha256-efcUwwGJG3hB4k8GsbPgLtMC1MuIyjYORalt66BrxhE="
         }
       ]
     }

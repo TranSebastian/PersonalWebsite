@@ -6,30 +6,64 @@
 
 
 
-<div class="middle" style="background-color: coral;">
-    <div>
+<div class="middle" style="background-color: hsl(@baseColor,  @saturation%, @lightness%); color:hsl(@baseColor, @Math.Max(Math.Abs(saturation-30), (saturation+30)%100)%, @Math.Min(Math.Abs(lightness-30), (lightness+30)%100)%)">
+    <div style="margin-bottom: 10px;">
         <h1>About me!</h1>
 
-        <p>
+        <h3>
             Hi! I'm Sebastian Tran!<br />
 
             I'm a junior computer science student at WCUPA<br />
 
             I also love photography!<br />
-        </p>
+        </h3>
     </div>
 
-    <img src="/images/placeHolder.jpg" class="otherThird"/>
+    <img src="/images/placeHolder.jpg" class="otherThird" @onclick="newColors"/>
 </div>
 
+<div class="threequarters">
+    <h2>Education</h2>
 
-<p class = "middle">
-    Contact me at: <br />
-    - transebastian91@gmail.com<br />
-    - 215-284-9916<br />
-</p>
+    <div>
+        <h3>
+            West Chester University of Pennsylvania  <br />
+            Accelerated Master's and Bachelor of Computer Science <br />
+        </h3>
+
+        <h4>
+
+            GPA: 4.00 <br />
+            Expected Graduation B.S. May 2026 <br />
+            Expected Graduation M.S. May 2027<br />
+
+        </h4>
+    </div>
+
+    
+</div>
+
+<footer class="middle" style="color: hsl(@baseColor,  @saturation%, @lightness%); background-color: hsl(@baseColor, @Math.Max(Math.Abs(saturation-30), (saturation+30)%100)%, @Math.Min(Math.Abs(lightness-30), (lightness+30)%100)% )">
+    Contact me at: transebastian91@gmail.com
+</footer>
 
 
 @code {
+    int baseColor;
+    int saturation;
+    int lightness;
+    Random randy = new Random();
 
+    protected override void OnInitialized()
+    {
+        newColors();
+    }
+
+    public void newColors ()
+    {
+        baseColor = randy.Next(0, 360);
+        saturation = randy.Next(14, 22);
+        lightness = randy.Next(88, 96);
+    }
+    
 }

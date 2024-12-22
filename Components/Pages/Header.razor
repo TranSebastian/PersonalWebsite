@@ -1,19 +1,28 @@
 ﻿@rendermode InteractiveServer
 @inject NavigationManager NavManager
 
-<h1>
-    @DisplayedText
-</h1>
+<div class="threequarters">
+    @if (DisplayedText is not null)
+    {
+        <h1>@DisplayedText</h1>
+    }
+    else
+    {
+        <h1>&#160;</h1>
+    }
 
-<nav class="buttonContainer">
-    <h2 class="@asa" @onclick="GoASA">ASA</h2>
-    <h2 class="@cs" @onclick="GoCS">CS</h2>
-    <h2 class="@home" @onclick="GoHome">About me</h2>
-</nav>
+    <nav class="buttonContainer">
+        <h3 class="@asa" @onclick="GoASA">ASA</h3>
+        <h3 class="@cs" @onclick="GoCS">CS</h3>
+        <h3 class="@home" @onclick="GoHome">About me</h3>
+    </nav>
+</div>
+
+
 
 @code{
-    string text = "ebastian tran.";
-    string DisplayedText = "";
+    string text = "sebastian tran.";
+    string? DisplayedText;
     bool IsRunning = false;
     int CurrentIndex = 0;
 
@@ -34,7 +43,7 @@
             return;
 
         CurrentIndex = 0;
-        DisplayedText = "s";
+        DisplayedText = "";
         IsRunning = true;
 
         while (CurrentIndex < text.Length && IsRunning)
