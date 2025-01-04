@@ -4,6 +4,10 @@ wwwroot\fonts\Coolvetica Rg Cond.otf
 wwwroot\fonts\Coolvetica Rg Cram.otf
 wwwroot\fonts\Coolvetica Rg It.otf
 wwwroot\fonts\Coolvetica Rg.otf
+wwwroot\fonts\OFL.txt
+wwwroot\fonts\Playfair-Italic-VariableFont_opsz,wdth,wght.ttf
+wwwroot\fonts\Playfair-VariableFont_opsz,wdth,wght.ttf
+wwwroot\fonts\README.txt
 wwwroot\images\blue.png
 wwwroot\images\green.png
 wwwroot\images\grid.png

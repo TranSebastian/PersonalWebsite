@@ -3,48 +3,57 @@
 @layout MainLayout
 @rendermode InteractiveServer
 
+<div class="middle">
+    <div class="middleContent" style="background-color: hsl(@baseColor,  @saturation%, @lightness%); color:hsl(@baseColor, @Math.Max(Math.Abs(saturation-30), (saturation+30)%100)%, @Math.Min(Math.Abs(lightness-30), (lightness+30)%100)%)">
 
+            <div class="middleText">
+                <h1>About me!</h1>
 
+                <h3>
+                    Hi! I'm Sebastian Tran!<br />
 
-<div class="middle" style="background-color: hsl(@baseColor,  @saturation%, @lightness%); color:hsl(@baseColor, @Math.Max(Math.Abs(saturation-30), (saturation+30)%100)%, @Math.Min(Math.Abs(lightness-30), (lightness+30)%100)%)">
-    <div style="margin-bottom: 10px;">
-        <h1>About me!</h1>
+                    I'm a junior computer science student at WCUPA<br />
 
-        <h3>
-            Hi! I'm Sebastian Tran!<br />
+                    I also love photography!<br />
+                </h3>
+            </div>
 
-            I'm a junior computer science student at WCUPA<br />
+            <img src="/images/placeHolder.jpg" class="otherThird" @onclick="newColors" />
 
-            I also love photography!<br />
-        </h3>
     </div>
-
-    <img src="/images/placeHolder.jpg" class="otherThird" @onclick="newColors"/>
 </div>
 
 <div class="threequarters">
-    <h2>Education</h2>
+    <h2 class="inThreeQuarters">Education</h2>
 
-    <div>
+    <div class="inThreeQuarters">
         <h3>
-            West Chester University of Pennsylvania  <br />
-            Accelerated Master's and Bachelor of Computer Science <br />
+            West Chester University of Pennsylvania, West Chester PA  <br />
+            Bachelor of Computer Science, Accelerated Master's Program, with Minor in Applied Statistics<br />
         </h3>
 
         <h4>
-
-            GPA: 4.00 <br />
             Expected Graduation B.S. May 2026 <br />
             Expected Graduation M.S. May 2027<br />
+            GPA: 4.00 <br />
+        </h4>
 
+        <h3>
+            Courses:
+        </h3>
+
+        <h4>
+            Data Structures and Algorithms <br />
+            Computer Systems <br />
+            Software Engineering <br />
         </h4>
     </div>
-
-    
 </div>
 
-<footer class="middle" style="color: hsl(@baseColor,  @saturation%, @lightness%); background-color: hsl(@baseColor, @Math.Max(Math.Abs(saturation-30), (saturation+30)%100)%, @Math.Min(Math.Abs(lightness-30), (lightness+30)%100)% )">
-    Contact me at: transebastian91@gmail.com
+<footer class="threequarters" >
+    <div class="inThreeQuarters" style="color: hsl(@baseColor,  @saturation%, @lightness%); background-color: hsl(@baseColor, @Math.Max(Math.Abs(saturation-30), (saturation+30)%100)%, @Math.Min(Math.Abs(lightness-30), (lightness+30)%100)% )">
+        Contact me at: transebastian91@gmail.com
+    </div>
 </footer>
 
 

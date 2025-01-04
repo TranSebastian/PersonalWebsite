@@ -2,26 +2,30 @@
 @inject NavigationManager NavManager
 
 <div class="threequarters">
-    @if (DisplayedText is not null)
-    {
-        <h1>@DisplayedText</h1>
-    }
-    else
-    {
-        <h1>&#160;</h1>
-    }
+    <div class="inThreeQuarters">
+        @if (DisplayedText is not null)
+        {
+            <h1>@DisplayedText</h1>
+        }
+        else
+        {
+            <h1>&#160;</h1>
+        }
+    </div>
 
-    <nav class="buttonContainer">
-        <h3 class="@asa" @onclick="GoASA">ASA</h3>
-        <h3 class="@cs" @onclick="GoCS">CS</h3>
-        <h3 class="@home" @onclick="GoHome">About me</h3>
-    </nav>
+    <div class="inThreeQuarters">
+        <nav class="buttonContainer">
+            <h3 class="@asa" @onclick="GoASA">ASA</h3>
+            <h3 class="@cs" @onclick="GoCS">CS</h3>
+            <h3 class="@home" @onclick="GoHome">About me</h3>
+        </nav>
+    </div>
 </div>
 
 
 
 @code{
-    string text = "sebastian tran.";
+    string text = "Sebastian Tran";
     string? DisplayedText;
     bool IsRunning = false;
     int CurrentIndex = 0;

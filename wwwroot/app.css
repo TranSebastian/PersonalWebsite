@@ -1,7 +1,5 @@
 html, body {
     margin: 0;
-    line-height: normal;
-    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -10,45 +8,48 @@ html, body {
     src: url('/fonts/Coolvetica Rg.otf')
 }
 
-p {
-    
+@font-face {
+    font-family: 'playfair';
+    src: url('fonts/Playfair-VariableFont_opsz,wdth,wght.ttf') format('woff2');
 }
-
 h1 {
-    font-family: coolvetica;
+    font-family: playfair;
+    font-weight: 900;
     margin: 0px;
     font-size: 70pt;
 }
 
 h2 {
-    font-size: 55pt;
+    font-size: 70pt;
     margin: 0px;
-    font-family: coolvetica;
-    letter-spacing: 3px;
+    font-family: playfair;
+    font-weight: 700;
 }
 
 h3 {
     margin: 0px;
     font-size: 30pt;
-    font-family: coolvetica;
+    font-family: playfair;
+    font-weight: 700;
 }
 
 h4 {
     margin: 0px;
-    font-family: coolvetica;
+    font-family: playfair;
     font-size: 20pt;
+    font-weight: 500;
 }
 
 .threequarters {
-   margin-left: 35px;
-   margin-right: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-@media screen and (min-width: 20in) {
-    .threequarters {
-        margin-left: 16.67%;
-        margin-right: 16.67%;
-    }
+.inThreeQuarters {
+    width: 18in;
 }
 
 

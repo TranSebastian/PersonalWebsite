@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cLRkdflZ9/EG4ENwrW7U3+GKcPOLY85DmRTm1x7PxXk=",
+  "Hash": "fnBf/zS5f6K9SE1E6IzZKLBWxv01PqCCS4HJttXA9vk=",
   "Source": "Website",
   "BasePath": "_content/Website",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "lx8x4ygg4h",
-      "Integrity": "efcUwwGJG3hB4k8GsbPgLtMC1MuIyjYORalt66BrxhE=",
+      "Fingerprint": "984tsr9v84",
+      "Integrity": "Vw3FiD8a9O+RWAfAgdjnIdpeNyvc3vSicF2SQUUNEAw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Website.styles.css"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "ezewfkaaf8",
-      "Integrity": "Jo1fdgb0KXu0J1MDLT2kLAJRXpFVx22neOKyRYO/400=",
+      "Fingerprint": "jiu9itgqqw",
+      "Integrity": "u2hG8rTlRwZVlm1ZcnG+TLYPL7of+cPGN+VGmcYUVv8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "p19n2a2z2j",
-      "Integrity": "jRfNAjwm9Mxiqb9PqPWTjyUym3UNoBZPvlDmfpBviO8=",
+      "Fingerprint": "q3n9g1txtw",
+      "Integrity": "yl78PvUwv/jof6qQApEP8oF7T153AYfcQCn5gwnJiow=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -225,6 +225,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fonts\\Coolvetica Rg.otf"
+    },
+    {
+      "Identity": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\OFL.txt",
+      "SourceId": "Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\",
+      "BasePath": "_content/Website",
+      "RelativePath": "fonts/OFL#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "trkqpvbjti",
+      "Integrity": "qfA2et5p7ikIp6NMhbEM/JirhP36VgyJOWlHiTNCj54=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\OFL.txt"
+    },
+    {
+      "Identity": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Playfair-Italic-VariableFont_opsz,wdth,wght.ttf",
+      "SourceId": "Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\",
+      "BasePath": "_content/Website",
+      "RelativePath": "fonts/Playfair-Italic-VariableFont_opsz,wdth,wght#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ra05zcslfu",
+      "Integrity": "w0O8w2n9MpBFitmH0cZ/IXeRVUEwBGLPJrZs1uxKMOU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Playfair-Italic-VariableFont_opsz,wdth,wght.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Playfair-VariableFont_opsz,wdth,wght.ttf",
+      "SourceId": "Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\",
+      "BasePath": "_content/Website",
+      "RelativePath": "fonts/Playfair-VariableFont_opsz,wdth,wght#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1m37i5i49p",
+      "Integrity": "90tTU1AXKCPYF3kBv/a2p3UfSgThMfe0FduAJ0LmVjg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Playfair-VariableFont_opsz,wdth,wght.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\README.txt",
+      "SourceId": "Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\",
+      "BasePath": "_content/Website",
+      "RelativePath": "fonts/README#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rs8ees7cjz",
+      "Integrity": "C1KunaYifYoWmTWQlWa9CSUhTwIlbw3TEnYNK/BviQE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\README.txt"
     },
     {
       "Identity": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\blue.png",
@@ -439,7 +523,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "947"
+          "Value": "1096"
         },
         {
           "Name": "Content-Type",
@@ -447,11 +531,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jRfNAjwm9Mxiqb9PqPWTjyUym3UNoBZPvlDmfpBviO8=\""
+          "Value": "\"yl78PvUwv/jof6qQApEP8oF7T153AYfcQCn5gwnJiow=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 01:49:12 GMT"
+          "Value": "Sat, 04 Jan 2025 20:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -461,12 +545,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jRfNAjwm9Mxiqb9PqPWTjyUym3UNoBZPvlDmfpBviO8="
+          "Value": "sha256-yl78PvUwv/jof6qQApEP8oF7T153AYfcQCn5gwnJiow="
         }
       ]
     },
     {
-      "Route": "app.p19n2a2z2j.css",
+      "Route": "app.q3n9g1txtw.css",
       "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -476,7 +560,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "947"
+          "Value": "1096"
         },
         {
           "Name": "Content-Type",
@@ -484,11 +568,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jRfNAjwm9Mxiqb9PqPWTjyUym3UNoBZPvlDmfpBviO8=\""
+          "Value": "\"yl78PvUwv/jof6qQApEP8oF7T153AYfcQCn5gwnJiow=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 01:49:12 GMT"
+          "Value": "Sat, 04 Jan 2025 20:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -498,7 +582,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "p19n2a2z2j"
+          "Value": "q3n9g1txtw"
         },
         {
           "Name": "label",
@@ -506,7 +590,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jRfNAjwm9Mxiqb9PqPWTjyUym3UNoBZPvlDmfpBviO8="
+          "Value": "sha256-yl78PvUwv/jof6qQApEP8oF7T153AYfcQCn5gwnJiow="
         }
       ]
     },
@@ -917,6 +1001,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-p6mzG8ZdRCypeqM91YjeNqS7H2EFSSpVv7BV7YY5hUY="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/OFL.trkqpvbjti.txt",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\OFL.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qfA2et5p7ikIp6NMhbEM/JirhP36VgyJOWlHiTNCj54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 04:20:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "trkqpvbjti"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/OFL.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qfA2et5p7ikIp6NMhbEM/JirhP36VgyJOWlHiTNCj54="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/OFL.txt",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\OFL.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qfA2et5p7ikIp6NMhbEM/JirhP36VgyJOWlHiTNCj54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 04:20:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qfA2et5p7ikIp6NMhbEM/JirhP36VgyJOWlHiTNCj54="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Playfair-Italic-VariableFont_opsz,wdth,wght.ra05zcslfu.ttf",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Playfair-Italic-VariableFont_opsz,wdth,wght.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1136124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w0O8w2n9MpBFitmH0cZ/IXeRVUEwBGLPJrZs1uxKMOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 04:20:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ra05zcslfu"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Playfair-Italic-VariableFont_opsz,wdth,wght.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w0O8w2n9MpBFitmH0cZ/IXeRVUEwBGLPJrZs1uxKMOU="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Playfair-Italic-VariableFont_opsz,wdth,wght.ttf",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Playfair-Italic-VariableFont_opsz,wdth,wght.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1136124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w0O8w2n9MpBFitmH0cZ/IXeRVUEwBGLPJrZs1uxKMOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 04:20:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w0O8w2n9MpBFitmH0cZ/IXeRVUEwBGLPJrZs1uxKMOU="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Playfair-VariableFont_opsz,wdth,wght.1m37i5i49p.ttf",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Playfair-VariableFont_opsz,wdth,wght.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1134128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"90tTU1AXKCPYF3kBv/a2p3UfSgThMfe0FduAJ0LmVjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 04:20:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1m37i5i49p"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Playfair-VariableFont_opsz,wdth,wght.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-90tTU1AXKCPYF3kBv/a2p3UfSgThMfe0FduAJ0LmVjg="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Playfair-VariableFont_opsz,wdth,wght.ttf",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Playfair-VariableFont_opsz,wdth,wght.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1134128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"90tTU1AXKCPYF3kBv/a2p3UfSgThMfe0FduAJ0LmVjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 04:20:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-90tTU1AXKCPYF3kBv/a2p3UfSgThMfe0FduAJ0LmVjg="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/README.rs8ees7cjz.txt",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\README.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C1KunaYifYoWmTWQlWa9CSUhTwIlbw3TEnYNK/BviQE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 04:20:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rs8ees7cjz"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/README.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C1KunaYifYoWmTWQlWa9CSUhTwIlbw3TEnYNK/BviQE="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/README.txt",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\README.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C1KunaYifYoWmTWQlWa9CSUhTwIlbw3TEnYNK/BviQE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 04:20:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C1KunaYifYoWmTWQlWa9CSUhTwIlbw3TEnYNK/BviQE="
         }
       ]
     },
@@ -1413,89 +1825,7 @@
       ]
     },
     {
-      "Route": "Website.bundle.scp.css",
-      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2335"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jo1fdgb0KXu0J1MDLT2kLAJRXpFVx22neOKyRYO/400=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 03:25:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jo1fdgb0KXu0J1MDLT2kLAJRXpFVx22neOKyRYO/400="
-        }
-      ]
-    },
-    {
-      "Route": "Website.ezewfkaaf8.bundle.scp.css",
-      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2335"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jo1fdgb0KXu0J1MDLT2kLAJRXpFVx22neOKyRYO/400=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 03:25:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ezewfkaaf8"
-        },
-        {
-          "Name": "label",
-          "Value": "Website.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jo1fdgb0KXu0J1MDLT2kLAJRXpFVx22neOKyRYO/400="
-        }
-      ]
-    },
-    {
-      "Route": "Website.lx8x4ygg4h.styles.css",
+      "Route": "Website.984tsr9v84.styles.css",
       "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Website.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1509,7 +1839,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2457"
+          "Value": "2610"
         },
         {
           "Name": "Content-Type",
@@ -1517,11 +1847,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"efcUwwGJG3hB4k8GsbPgLtMC1MuIyjYORalt66BrxhE=\""
+          "Value": "\"Vw3FiD8a9O+RWAfAgdjnIdpeNyvc3vSicF2SQUUNEAw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 03:25:29 GMT"
+          "Value": "Sat, 04 Jan 2025 20:45:07 GMT"
         },
         {
           "Name": "Link",
@@ -1531,15 +1861,97 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lx8x4ygg4h"
+          "Value": "984tsr9v84"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-efcUwwGJG3hB4k8GsbPgLtMC1MuIyjYORalt66BrxhE="
+          "Value": "sha256-Vw3FiD8a9O+RWAfAgdjnIdpeNyvc3vSicF2SQUUNEAw="
         },
         {
           "Name": "label",
           "Value": "Website.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "Website.bundle.scp.css",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u2hG8rTlRwZVlm1ZcnG+TLYPL7of+cPGN+VGmcYUVv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 20:45:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u2hG8rTlRwZVlm1ZcnG+TLYPL7of+cPGN+VGmcYUVv8="
+        }
+      ]
+    },
+    {
+      "Route": "Website.jiu9itgqqw.bundle.scp.css",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u2hG8rTlRwZVlm1ZcnG+TLYPL7of+cPGN+VGmcYUVv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 20:45:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jiu9itgqqw"
+        },
+        {
+          "Name": "label",
+          "Value": "Website.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u2hG8rTlRwZVlm1ZcnG+TLYPL7of+cPGN+VGmcYUVv8="
         }
       ]
     },
@@ -1558,7 +1970,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2457"
+          "Value": "2610"
         },
         {
           "Name": "Content-Type",
@@ -1566,11 +1978,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"efcUwwGJG3hB4k8GsbPgLtMC1MuIyjYORalt66BrxhE=\""
+          "Value": "\"Vw3FiD8a9O+RWAfAgdjnIdpeNyvc3vSicF2SQUUNEAw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 03:25:29 GMT"
+          "Value": "Sat, 04 Jan 2025 20:45:07 GMT"
         },
         {
           "Name": "Link",
@@ -1580,7 +1992,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-efcUwwGJG3hB4k8GsbPgLtMC1MuIyjYORalt66BrxhE="
+          "Value": "sha256-Vw3FiD8a9O+RWAfAgdjnIdpeNyvc3vSicF2SQUUNEAw="
         }
       ]
     }

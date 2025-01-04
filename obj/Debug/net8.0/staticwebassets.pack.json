@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Website.ezewfkaaf8.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Website.jiu9itgqqw.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\app.css",
@@ -27,6 +27,22 @@
     {
       "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Coolvetica Rg.otf",
       "PackagePath": "staticwebassets\\fonts\\Coolvetica Rg.otf"
+    },
+    {
+      "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\OFL.txt",
+      "PackagePath": "staticwebassets\\fonts\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Playfair-Italic-VariableFont_opsz,wdth,wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Playfair-Italic-VariableFont_opsz,wdth,wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\Playfair-VariableFont_opsz,wdth,wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Playfair-VariableFont_opsz,wdth,wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\fonts\\README.txt",
+      "PackagePath": "staticwebassets\\fonts\\README.txt"
     },
     {
       "Id": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\images\\blue.png",
