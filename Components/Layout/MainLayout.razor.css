@@ -31,11 +31,7 @@
     background-color: transparent;
 }
 
-@media screen and (max-width: 20in) {
-    .hidden {
-        width: 100%;
-    }
-}
+
 
 @keyframes leftRight {
     0% {

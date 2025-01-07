@@ -1,41 +1,32 @@
-﻿
-.leftright {
-    display: flex;
-    justify-content: space-between;
-}
-
-footer {
-    margin-top: 50px;
-}
-
-.threequarters {
-    margin-bottom: 35px;
-}
-
-
-.middleContent {
-    display: flex;
-    justify-content: center;
+﻿.middleContent {
     align-items: center;
-    width: 18in;
-    flex-wrap: wrap;
 }
 
     .middleContent img {
         width: 400px;
-        height: 400px;
+        height: 550px;
         object-fit: cover;
         margin-top: 35px;
         margin-bottom: 35px;
     }
-.middleText {
-    margin-left: 35px;
-    margin-right: 35px;
-}
 
 .middle {
-    display: flex;
-    justify-content: center;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 35px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.text {
+    flex: 60%;
+}
+
+.label {
+    flex: 33%;
+    margin-right: 35px;
 }

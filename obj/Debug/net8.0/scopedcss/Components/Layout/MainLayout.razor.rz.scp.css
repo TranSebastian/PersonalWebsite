@@ -31,11 +31,7 @@
     background-color: transparent;
 }
 
-@media screen and (max-width: 20in) {
-    .hidden[b-4xpicsu201] {
-        width: 100%;
-    }
-}
+
 
 @keyframes leftRight-b-4xpicsu201 {
     0% {

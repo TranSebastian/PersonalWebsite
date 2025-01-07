@@ -3,7 +3,7 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
-      "Route": "Website.984tsr9v84.styles.css",
+      "Route": "Website.69a11lsm5k.styles.css",
       "AssetFile": "Website.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -17,7 +17,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2610"
+          "Value": "2335"
         },
         {
           "Name": "Content-Type",
@@ -25,11 +25,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Vw3FiD8a9O+RWAfAgdjnIdpeNyvc3vSicF2SQUUNEAw=\""
+          "Value": "\"1sAxjEkdXO2dNhm992EPZ/rofY8+sTlfil9F9uwKwz8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 20:45:07 GMT"
+          "Value": "Tue, 07 Jan 2025 23:23:51 GMT"
         },
         {
           "Name": "Link",
@@ -39,11 +39,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "984tsr9v84"
+          "Value": "69a11lsm5k"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Vw3FiD8a9O+RWAfAgdjnIdpeNyvc3vSicF2SQUUNEAw="
+          "Value": "sha256-1sAxjEkdXO2dNhm992EPZ/rofY8+sTlfil9F9uwKwz8="
         },
         {
           "Name": "label",
@@ -66,7 +66,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2610"
+          "Value": "2335"
         },
         {
           "Name": "Content-Type",
@@ -74,11 +74,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Vw3FiD8a9O+RWAfAgdjnIdpeNyvc3vSicF2SQUUNEAw=\""
+          "Value": "\"1sAxjEkdXO2dNhm992EPZ/rofY8+sTlfil9F9uwKwz8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 20:45:07 GMT"
+          "Value": "Tue, 07 Jan 2025 23:23:51 GMT"
         },
         {
           "Name": "Link",
@@ -88,7 +88,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Vw3FiD8a9O+RWAfAgdjnIdpeNyvc3vSicF2SQUUNEAw="
+          "Value": "sha256-1sAxjEkdXO2dNhm992EPZ/rofY8+sTlfil9F9uwKwz8="
         }
       ]
     },
@@ -181,7 +181,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1096"
+          "Value": "1066"
         },
         {
           "Name": "Content-Type",
@@ -189,22 +189,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yl78PvUwv/jof6qQApEP8oF7T153AYfcQCn5gwnJiow=\""
+          "Value": "\"k6e/PF5JDFi/8qOJA2TCgg4a6jGYFI5d30ePedokJZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 20:44:33 GMT"
+          "Value": "Tue, 07 Jan 2025 22:41:55 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yl78PvUwv/jof6qQApEP8oF7T153AYfcQCn5gwnJiow="
+          "Value": "sha256-k6e/PF5JDFi/8qOJA2TCgg4a6jGYFI5d30ePedokJZU="
         }
       ]
     },
     {
-      "Route": "app.q3n9g1txtw.css",
+      "Route": "app.pdc72r5x31.css",
       "AssetFile": "app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -218,7 +218,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1096"
+          "Value": "1066"
         },
         {
           "Name": "Content-Type",
@@ -226,21 +226,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yl78PvUwv/jof6qQApEP8oF7T153AYfcQCn5gwnJiow=\""
+          "Value": "\"k6e/PF5JDFi/8qOJA2TCgg4a6jGYFI5d30ePedokJZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 20:44:33 GMT"
+          "Value": "Tue, 07 Jan 2025 22:41:55 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q3n9g1txtw"
+          "Value": "pdc72r5x31"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yl78PvUwv/jof6qQApEP8oF7T153AYfcQCn5gwnJiow="
+          "Value": "sha256-k6e/PF5JDFi/8qOJA2TCgg4a6jGYFI5d30ePedokJZU="
         },
         {
           "Name": "label",

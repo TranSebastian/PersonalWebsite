@@ -1,8 +1,8 @@
 ﻿@rendermode InteractiveServer
 @inject NavigationManager NavManager
 
-<div class="threequarters">
-    <div class="inThreeQuarters">
+<div class="CommonMargin flexCenterWrap">
+    <div class="CommonSize">
         @if (DisplayedText is not null)
         {
             <h1>@DisplayedText</h1>
@@ -13,7 +13,7 @@
         }
     </div>
 
-    <div class="inThreeQuarters">
+    <div class="CommonSize">
         <nav class="buttonContainer">
             <h3 class="@asa" @onclick="GoASA">ASA</h3>
             <h3 class="@cs" @onclick="GoCS">CS</h3>

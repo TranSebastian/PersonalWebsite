@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-    font-size: 70pt;
+    font-size: 60pt;
     margin: 0px;
     font-family: playfair;
     font-weight: 700;
@@ -30,7 +30,7 @@ h3 {
     margin: 0px;
     font-size: 30pt;
     font-family: playfair;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h4 {
@@ -40,18 +40,20 @@ h4 {
     font-weight: 500;
 }
 
-.threequarters {
-    margin-left: 35px;
-    margin-right: 35px;
+.flexCenterWrap {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.inThreeQuarters {
+.CommonSize {
     width: 18in;
 }
 
+.CommonMargin {
+    margin-left: 35px;
+    margin-right: 35px;
+}
 
 @media screen and (max-width: 8in) {
     h3 {
