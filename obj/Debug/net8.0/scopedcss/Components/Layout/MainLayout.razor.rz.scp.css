@@ -24,10 +24,10 @@
 .hidden[b-4xpicsu201] {
     position: absolute;
     z-index: 3;
-    width: 18in;
+    width: 14in;
     height: 400px;
-    border-left: 16.67vw solid white;
-    border-right: 16.67vw solid white;
+    border-left: 100vw solid white;
+    border-right: 100vw solid white;
     background-color: transparent;
 }
 

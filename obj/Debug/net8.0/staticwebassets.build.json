@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mCNZ1magR5DqVxBaxTsT81sr1lMvJHTpwHkOdSNljCo=",
+  "Hash": "cSkZybeiQYz3N/H0V1MEm0GPzzhIIcHK53g3t70zEX4=",
   "Source": "Website",
   "BasePath": "_content/Website",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "69a11lsm5k",
-      "Integrity": "1sAxjEkdXO2dNhm992EPZ/rofY8+sTlfil9F9uwKwz8=",
+      "Fingerprint": "uovgk33vpw",
+      "Integrity": "kovDT0gm1DfHhG6c/NEk2XrT0IzXnvRVmCgwbkaVSCQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Website.styles.css"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "60tybm3n4f",
-      "Integrity": "qkXOg/i3YMOPfobwKM/VlcWunrippIaXhMpSyN/29OU=",
+      "Fingerprint": "thru0bpub5",
+      "Integrity": "T/2RGr86r++KfT1+FsZjhuPYm3cqpWSuSfaiOetjL54=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pdc72r5x31",
-      "Integrity": "k6e/PF5JDFi/8qOJA2TCgg4a6jGYFI5d30ePedokJZU=",
+      "Fingerprint": "kyhctiseb9",
+      "Integrity": "FBXUBDNTYQ3ppuqu6kxMxb/PJMk/Z+9lYPK5amlwESQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -523,7 +523,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1066"
+          "Value": "1298"
         },
         {
           "Name": "Content-Type",
@@ -531,11 +531,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k6e/PF5JDFi/8qOJA2TCgg4a6jGYFI5d30ePedokJZU=\""
+          "Value": "\"FBXUBDNTYQ3ppuqu6kxMxb/PJMk/Z+9lYPK5amlwESQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 07 Jan 2025 22:41:55 GMT"
+          "Value": "Mon, 13 Jan 2025 20:02:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -545,12 +545,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-k6e/PF5JDFi/8qOJA2TCgg4a6jGYFI5d30ePedokJZU="
+          "Value": "sha256-FBXUBDNTYQ3ppuqu6kxMxb/PJMk/Z+9lYPK5amlwESQ="
         }
       ]
     },
     {
-      "Route": "app.pdc72r5x31.css",
+      "Route": "app.kyhctiseb9.css",
       "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -560,7 +560,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1066"
+          "Value": "1298"
         },
         {
           "Name": "Content-Type",
@@ -568,11 +568,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k6e/PF5JDFi/8qOJA2TCgg4a6jGYFI5d30ePedokJZU=\""
+          "Value": "\"FBXUBDNTYQ3ppuqu6kxMxb/PJMk/Z+9lYPK5amlwESQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 07 Jan 2025 22:41:55 GMT"
+          "Value": "Mon, 13 Jan 2025 20:02:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -582,7 +582,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pdc72r5x31"
+          "Value": "kyhctiseb9"
         },
         {
           "Name": "label",
@@ -590,7 +590,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-k6e/PF5JDFi/8qOJA2TCgg4a6jGYFI5d30ePedokJZU="
+          "Value": "sha256-FBXUBDNTYQ3ppuqu6kxMxb/PJMk/Z+9lYPK5amlwESQ="
         }
       ]
     },
@@ -1825,100 +1825,6 @@
       ]
     },
     {
-      "Route": "Website.60tybm3n4f.bundle.scp.css",
-      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2213"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qkXOg/i3YMOPfobwKM/VlcWunrippIaXhMpSyN/29OU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 07 Jan 2025 23:23:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "60tybm3n4f"
-        },
-        {
-          "Name": "label",
-          "Value": "Website.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qkXOg/i3YMOPfobwKM/VlcWunrippIaXhMpSyN/29OU="
-        }
-      ]
-    },
-    {
-      "Route": "Website.69a11lsm5k.styles.css",
-      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Website.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2335"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1sAxjEkdXO2dNhm992EPZ/rofY8+sTlfil9F9uwKwz8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 07 Jan 2025 23:23:51 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "69a11lsm5k"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1sAxjEkdXO2dNhm992EPZ/rofY8+sTlfil9F9uwKwz8="
-        },
-        {
-          "Name": "label",
-          "Value": "Website.styles.css"
-        }
-      ]
-    },
-    {
       "Route": "Website.bundle.scp.css",
       "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
       "Selectors": [],
@@ -1929,7 +1835,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2213"
+          "Value": "2128"
         },
         {
           "Name": "Content-Type",
@@ -1937,11 +1843,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qkXOg/i3YMOPfobwKM/VlcWunrippIaXhMpSyN/29OU=\""
+          "Value": "\"T/2RGr86r++KfT1+FsZjhuPYm3cqpWSuSfaiOetjL54=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 07 Jan 2025 23:23:51 GMT"
+          "Value": "Mon, 13 Jan 2025 20:02:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1951,7 +1857,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qkXOg/i3YMOPfobwKM/VlcWunrippIaXhMpSyN/29OU="
+          "Value": "sha256-T/2RGr86r++KfT1+FsZjhuPYm3cqpWSuSfaiOetjL54="
         }
       ]
     },
@@ -1970,7 +1876,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2335"
+          "Value": "2250"
         },
         {
           "Name": "Content-Type",
@@ -1978,11 +1884,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1sAxjEkdXO2dNhm992EPZ/rofY8+sTlfil9F9uwKwz8=\""
+          "Value": "\"kovDT0gm1DfHhG6c/NEk2XrT0IzXnvRVmCgwbkaVSCQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 07 Jan 2025 23:23:51 GMT"
+          "Value": "Mon, 13 Jan 2025 20:02:38 GMT"
         },
         {
           "Name": "Link",
@@ -1992,7 +1898,101 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1sAxjEkdXO2dNhm992EPZ/rofY8+sTlfil9F9uwKwz8="
+          "Value": "sha256-kovDT0gm1DfHhG6c/NEk2XrT0IzXnvRVmCgwbkaVSCQ="
+        }
+      ]
+    },
+    {
+      "Route": "Website.thru0bpub5.bundle.scp.css",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T/2RGr86r++KfT1+FsZjhuPYm3cqpWSuSfaiOetjL54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Jan 2025 20:02:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "thru0bpub5"
+        },
+        {
+          "Name": "label",
+          "Value": "Website.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T/2RGr86r++KfT1+FsZjhuPYm3cqpWSuSfaiOetjL54="
+        }
+      ]
+    },
+    {
+      "Route": "Website.uovgk33vpw.styles.css",
+      "AssetFile": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Website.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kovDT0gm1DfHhG6c/NEk2XrT0IzXnvRVmCgwbkaVSCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Jan 2025 20:02:38 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uovgk33vpw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kovDT0gm1DfHhG6c/NEk2XrT0IzXnvRVmCgwbkaVSCQ="
+        },
+        {
+          "Name": "label",
+          "Value": "Website.styles.css"
         }
       ]
     }

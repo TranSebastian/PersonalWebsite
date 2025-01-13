@@ -3,55 +3,6 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
-      "Route": "Website.69a11lsm5k.styles.css",
-      "AssetFile": "Website.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2335"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1sAxjEkdXO2dNhm992EPZ/rofY8+sTlfil9F9uwKwz8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 07 Jan 2025 23:23:51 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "69a11lsm5k"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1sAxjEkdXO2dNhm992EPZ/rofY8+sTlfil9F9uwKwz8="
-        },
-        {
-          "Name": "label",
-          "Value": "Website.styles.css"
-        }
-      ]
-    },
-    {
       "Route": "Website.styles.css",
       "AssetFile": "Website.styles.css",
       "Selectors": [],
@@ -66,7 +17,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2335"
+          "Value": "2250"
         },
         {
           "Name": "Content-Type",
@@ -74,11 +25,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1sAxjEkdXO2dNhm992EPZ/rofY8+sTlfil9F9uwKwz8=\""
+          "Value": "\"kovDT0gm1DfHhG6c/NEk2XrT0IzXnvRVmCgwbkaVSCQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 07 Jan 2025 23:23:51 GMT"
+          "Value": "Mon, 13 Jan 2025 20:02:38 GMT"
         },
         {
           "Name": "Link",
@@ -88,7 +39,56 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1sAxjEkdXO2dNhm992EPZ/rofY8+sTlfil9F9uwKwz8="
+          "Value": "sha256-kovDT0gm1DfHhG6c/NEk2XrT0IzXnvRVmCgwbkaVSCQ="
+        }
+      ]
+    },
+    {
+      "Route": "Website.uovgk33vpw.styles.css",
+      "AssetFile": "Website.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kovDT0gm1DfHhG6c/NEk2XrT0IzXnvRVmCgwbkaVSCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Jan 2025 20:02:38 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uovgk33vpw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kovDT0gm1DfHhG6c/NEk2XrT0IzXnvRVmCgwbkaVSCQ="
+        },
+        {
+          "Name": "label",
+          "Value": "Website.styles.css"
         }
       ]
     },
@@ -181,7 +181,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1066"
+          "Value": "1298"
         },
         {
           "Name": "Content-Type",
@@ -189,22 +189,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k6e/PF5JDFi/8qOJA2TCgg4a6jGYFI5d30ePedokJZU=\""
+          "Value": "\"FBXUBDNTYQ3ppuqu6kxMxb/PJMk/Z+9lYPK5amlwESQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 07 Jan 2025 22:41:55 GMT"
+          "Value": "Mon, 13 Jan 2025 20:02:24 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-k6e/PF5JDFi/8qOJA2TCgg4a6jGYFI5d30ePedokJZU="
+          "Value": "sha256-FBXUBDNTYQ3ppuqu6kxMxb/PJMk/Z+9lYPK5amlwESQ="
         }
       ]
     },
     {
-      "Route": "app.pdc72r5x31.css",
+      "Route": "app.kyhctiseb9.css",
       "AssetFile": "app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -218,7 +218,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1066"
+          "Value": "1298"
         },
         {
           "Name": "Content-Type",
@@ -226,21 +226,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k6e/PF5JDFi/8qOJA2TCgg4a6jGYFI5d30ePedokJZU=\""
+          "Value": "\"FBXUBDNTYQ3ppuqu6kxMxb/PJMk/Z+9lYPK5amlwESQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 07 Jan 2025 22:41:55 GMT"
+          "Value": "Mon, 13 Jan 2025 20:02:24 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pdc72r5x31"
+          "Value": "kyhctiseb9"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-k6e/PF5JDFi/8qOJA2TCgg4a6jGYFI5d30ePedokJZU="
+          "Value": "sha256-FBXUBDNTYQ3ppuqu6kxMxb/PJMk/Z+9lYPK5amlwESQ="
         },
         {
           "Name": "label",

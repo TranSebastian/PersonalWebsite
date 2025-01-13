@@ -2,25 +2,19 @@
     align-items: center;
 }
 
-    .middleContent img {
-        width: 400px;
-        height: 550px;
-        object-fit: cover;
-        margin-top: 35px;
-        margin-bottom: 35px;
-    }
-
 .middle {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 35px;
 }
 
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 35px;
-}
+    .middle img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
 
 .text {
     flex: 60%;

@@ -4,66 +4,73 @@
 @rendermode InteractiveServer
 
 <div class="middle flexCenterWrap">
-    <div class="middleContent flexCenterWrap CommonSize" style="background-color: hsl(@baseColor,  @saturation%, @lightness%); color:hsl(@baseColor, @Math.Max(Math.Abs(saturation-30), (saturation+30)%100)%, @Math.Min(Math.Abs(lightness-30), (lightness+30)%100)%)">
+    <div class="CommonSize" style="background-color: hsl(@baseColor,  @saturation%, @lightness%); color:hsl(@baseColor, @Math.Max(Math.Abs(saturation-30), (saturation+30)%100)%, @Math.Min(Math.Abs(lightness-30), (lightness+30)%100)%)">
 
-            <div class="CommonMargin">
-                <h1>About me!</h1>
+        <div class="flexSpaceWrap middleContent CommonMargin">
+            <div>
+                <h2>About me! (tldr)</h2>
 
                 <h3>
-                    Hi, I'm Sebastian Tran<br />
+                    I'm Sebastian Tran<br />
 
                     I'm a junior computer science student at WCUPA<br />
 
-                    I also love photography!<br />
+                    I also enjoy photography!<br />
                 </h3>
             </div>
 
             <img src="/images/placeHolder.jpg" class="otherThird" @onclick="newColors" />
+        </div>
+
+           
 
     </div>
 </div>
 
 <div class="flexCenterWrap CommonMargin ">
-    <div class="content CommonSize">
-        <div class="label">
-            <h2>Education</h2>
+    <div class="CommonSize">
+        <div class="content">
+            <div class="label">
+                <h2>Education</h2>
+            </div>
+
+
+            <div class="text">
+                <h3>
+                    West Chester University of Pennsylvania, West Chester PA  <br />
+                    B.S. in Computer Science, Accelerated Master's Program, Minor in Applied Statistics<br />
+                </h3>
+
+                <h4>
+                    Expected Graduation B.S. May 2026 <br />
+                    Expected Graduation M.S. May 2027<br />
+                    GPA: 4.00 <br />
+                </h4>
+
+                <h3>
+                    Courses:
+                </h3>
+
+                <h4>
+                    Data Structures and Algorithms <br />
+                    Computer Systems <br />
+                    Software Engineering <br />
+                </h4>
+            </div>
         </div>
-        
 
-        <div class="text">
-            <h3>
-                West Chester University of Pennsylvania, West Chester PA  <br />
-                B.S. in Computer Science, Accelerated Master's Program, Minor in Applied Statistics<br />
-            </h3>
+        <div class="content">
+            <h2 class="label">Contacts</h2>
 
-            <h4>
-                Expected Graduation B.S. May 2026 <br />
-                Expected Graduation M.S. May 2027<br />
-                GPA: 4.00 <br />
-            </h4>
+            <div class="text">
+                <h3>
+                    Email: transebastian91@gmail.com
 
-            <h3>
-                Courses:
-            </h3>
-
-            <h4>
-                Data Structures and Algorithms <br />
-                Computer Systems <br />
-                Software Engineering <br />
-            </h4>
-        </div>
-   </div>
-
-    <div class="content CommonSize">
-        <h2 class="label">Contacts</h2>
-
-        <div class="text">
-            <h3>
-                Email: transebastian91@gmail.com
-
-            </h3>
+                </h3>
+            </div>
         </div>
     </div>
+    
 </div>
 
 @code {

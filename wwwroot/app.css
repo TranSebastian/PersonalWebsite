@@ -46,13 +46,29 @@ h4 {
     flex-wrap: wrap;
 }
 
+.flexSpaceWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
 .CommonSize {
-    width: 18in;
+    width: 14in;
 }
 
 .CommonMargin {
     margin-left: 35px;
     margin-right: 35px;
+}
+
+.bottom {
+    margin-bottom: 35px;
 }
 
 @media screen and (max-width: 8in) {
@@ -67,4 +83,8 @@ h4 {
     h1 {
         font-size: 40pt;
     }
+}
+
+.box {
+    width: 33%;
 }

@@ -2,25 +2,19 @@
     align-items: center;
 }
 
-    .middleContent img[b-hav1j0b5ua] {
-        width: 400px;
-        height: 550px;
-        object-fit: cover;
-        margin-top: 35px;
-        margin-bottom: 35px;
-    }
-
 .middle[b-hav1j0b5ua] {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 35px;
 }
 
-.content[b-hav1j0b5ua] {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 35px;
-}
+    .middle img[b-hav1j0b5ua] {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
 
 .text[b-hav1j0b5ua] {
     flex: 60%;
