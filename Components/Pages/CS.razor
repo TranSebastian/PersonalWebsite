@@ -2,31 +2,61 @@
 @page "/cs" 
 @layout MainLayout
 @rendermode InteractiveServer
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@using Website.Components.Models;
 
 <div class="flexCenterWrap CommonMargin">
-    <div class="CommonSize bottom">
-        <h2>CS</h2>
+    <div class="CommonSize">
+        <div class="content bottom" style="gap: 0.25in;">
+            <div class="box">
+                <h2>CS</h2>
 
-        <h3>
-            all about my computer science endeavours!
+                <h3>
+                    All about my computer science endeavours! <br />
+                    Click on a tile to learn more!
+                </h3>
+            </div>
 
-        </h3>
-    </div>
+            <div class="content containerBox">
+                @if (projects is not null)
+                {
+                    foreach (CsProject project in projects)
+                    {
+                        newColors();
+                        <div class="contentBox" style="background-color: hsl(@baseColor,  @saturation%, @lightness%)">
+                            <h2>@project.Name</h2>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div>loading still...</div>
+                }
+            </div>
 
-    <div class="CommonSize flexCenterWrap">
-        <div class="box">
-            FUCK
-        </div>
-        <div class="box">
-            FUCK
-        </div>
-        <div class="box">
-            FUCK
         </div>
     </div>
 
 </div>
 
 @code {
+    List<CsProject>? projects;
+    int baseColor;
+    int saturation;
+    int lightness;
+    Random randy = new Random();
+
+    protected override async Task OnInitializedAsync()
+    {
+        projects = await Http.GetFromJsonAsync<List<CsProject>>(NavManager.BaseUri + "CsProject");
+    }
+
+    public void newColors()
+    {
+        baseColor = randy.Next(0, 360);
+        saturation = randy.Next(14, 22);
+        lightness = randy.Next(88, 96);
+    }
 
 }

@@ -86,5 +86,17 @@ h4 {
 }
 
 .box {
-    width: 33%;
+    flex: 30%;
 }
+
+.containerBox {
+    gap: 0.25in;
+    flex: 66%;
+}
+
+.contentBox {
+    width: 4.20in;
+    height: 4.20in;
+    padding: 15px;
+}
+

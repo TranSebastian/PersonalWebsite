@@ -1,5 +1,83 @@
 [
   {
+    "ContainingType": "Website.Components.Controllers.CsProjectController",
+    "Method": "GetAll",
+    "RelativePath": "CsProject",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Website.Components.Models.CsProject, Website, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Website.Components.Controllers.CsProjectController",
+    "Method": "Create",
+    "RelativePath": "CsProject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newCsProject",
+        "Type": "Website.Components.Models.CsProject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Website.Components.Controllers.CsProjectController",
+    "Method": "GetById",
+    "RelativePath": "CsProject/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Website.Components.Models.CsProject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Website.Components.Controllers.CsProjectController",
+    "Method": "Delete",
+    "RelativePath": "CsProject/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Website.Components.Controllers.ImageController",
     "Method": "GetAll",
     "RelativePath": "Image",

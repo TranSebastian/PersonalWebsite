@@ -8,6 +8,7 @@ public static class Extensions
             {
                 var services = scope.ServiceProvider;
                 var context = services.GetRequiredService<ImageContext>();
+                services.GetRequiredService<CsProjectContext>();
                 context.Database.EnsureCreated();
                 DbInitializer.Initialize(context);
             }

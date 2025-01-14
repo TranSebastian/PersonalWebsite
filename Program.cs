@@ -21,6 +21,7 @@ builder.Services.AddHttpClient();
  * Image database related items
  */
 builder.Services.AddSqlite<ImageContext>("Data Source=WebsiteImages.db");
+builder.Services.AddSqlite<CsProjectContext>("Data Source=WebsiteImages.db");
 
 var app = builder.Build();
 
