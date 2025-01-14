@@ -8,8 +8,8 @@
 
 <div class="flexCenterWrap CommonMargin">
     <div class="CommonSize">
-        <div class="content bottom" style="gap: 0.25in;">
-            <div class="box">
+        <div class="flexCenterWrap boxContainer bottom">
+            <div class="boxsize">
                 <h2>CS</h2>
 
                 <h3>
@@ -18,45 +18,58 @@
                 </h3>
             </div>
 
-            <div class="content containerBox">
-                @if (projects is not null)
+            @if (projects is not null)
+            {
+                int i = 0;
+                foreach (CsProject project in projects)
                 {
-                    foreach (CsProject project in projects)
-                    {
-                        newColors();
-                        <div class="contentBox" style="background-color: hsl(@baseColor,  @saturation%, @lightness%)">
-                            <h2>@project.Name</h2>
-                        </div>
-                    }
+                    <div class="boxsize" style="background-color: hsl(@hsl[i][0],  @hsl[i][1]%, @hsl[i][2]%, 1);" @onclick="()=> {overlay = true; selectedProject=project;}">
+                        <h2>@project.Name</h2>
+                    </div>
+                    i++;
                 }
-                else
-                {
-                    <div>loading still...</div>
-                }
-            </div>
-
+            }
+            else
+            {
+                <div>loading still...</div>
+            }
         </div>
-    </div>
 
+        @if (overlay && selectedProject is not null)
+        {
+            <div>
+                <h2> @selectedProject.Name </h2>
+                <h3>
+                    @selectedProject.Description  <br />
+                    @selectedProject.Link  <br />
+                </h3>
+                <button @onclick="() => overlay = false">Close</button>
+            </div>
+        }
+    </div>
 </div>
+
 
 @code {
     List<CsProject>? projects;
-    int baseColor;
-    int saturation;
-    int lightness;
     Random randy = new Random();
+    CsProject? selectedProject;
+
+    List<List<int>> hsl = new List<List<int>>();
+
+    bool overlay = false;
 
     protected override async Task OnInitializedAsync()
     {
         projects = await Http.GetFromJsonAsync<List<CsProject>>(NavManager.BaseUri + "CsProject");
-    }
 
-    public void newColors()
-    {
-        baseColor = randy.Next(0, 360);
-        saturation = randy.Next(14, 22);
-        lightness = randy.Next(88, 96);
+        for (int i = 0; i < 3; i++)
+        {
+            List<int> temp = new List<int>();
+            temp.Add(randy.Next(0, 360));
+            temp.Add(randy.Next(14, 22));
+            temp.Add(randy.Next(88, 96));
+            hsl.Add(temp);
+        }
     }
-
 }

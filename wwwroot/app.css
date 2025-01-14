@@ -85,18 +85,17 @@ h4 {
     }
 }
 
-.box {
-    flex: 30%;
+.boxsize {
+    box-sizing: border-box;
+    align-content: center;
+    padding: 10px;
+    flex: 1 1 33.3%;
+    min-width: 4in;
+    max-width: 4.6in;
+    aspect-ratio: 1/1;
 }
 
-.containerBox {
-    gap: 0.25in;
-    flex: 66%;
+.boxContainer {
+    flex-direction: row;
+    gap: 0.1in;
 }
-
-.contentBox {
-    width: 4.20in;
-    height: 4.20in;
-    padding: 15px;
-}
-

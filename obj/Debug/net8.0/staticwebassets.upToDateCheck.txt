@@ -8,6 +8,7 @@ wwwroot\fonts\OFL.txt
 wwwroot\fonts\Playfair-Italic-VariableFont_opsz,wdth,wght.ttf
 wwwroot\fonts\Playfair-VariableFont_opsz,wdth,wght.ttf
 wwwroot\fonts\README.txt
+wwwroot\images\20220304_171516.jpg
 wwwroot\images\blue.png
 wwwroot\images\green.png
 wwwroot\images\grid.png
