@@ -36,31 +36,5 @@ public class CsProjectController : ControllerBase
             return NotFound();
         }
     }
-
-    [HttpPost]
-    public async Task<IActionResult> Create(CsProject newCsProject)
-    {
-        await _csProjectContext.CsProjects.AddAsync(newCsProject);
-        await _csProjectContext.SaveChangesAsync();
-
-        var csProject = newCsProject;
-        return CreatedAtAction(nameof(GetById), new { id = csProject!.Id }, csProject);
-    }
-
-    [HttpDelete("{id}")]
-    public async Task<IActionResult> Delete(int id)
-    {
-        var csProject = await _csProjectContext.CsProjects.FindAsync(id);
-        if (csProject is not null)
-        {
-            _csProjectContext.CsProjects.Remove(csProject);
-            await _csProjectContext.SaveChangesAsync();
-            return Ok();
-        }
-        else
-        {
-            return NotFound();
-        }
-    }
 }
 
