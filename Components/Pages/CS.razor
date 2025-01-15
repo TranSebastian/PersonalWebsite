@@ -34,21 +34,23 @@
                 <div>loading still...</div>
             }
         </div>
-
-        @if (overlay && selectedProject is not null)
-        {
-            <div>
-                <h2> @selectedProject.Name </h2>
-                <h3>
-                    @selectedProject.Description  <br />
-                    @selectedProject.Link  <br />
-                </h3>
-                <button @onclick="() => overlay = false">Close</button>
-            </div>
-        }
     </div>
 </div>
 
+
+@if (overlay && selectedProject is not null)
+{
+    <div class="overlayContainer" @onclick="() => overlay = false">
+        <div class="overt CommonSize CommonMargin">
+            <h2> @selectedProject.Name </h2>
+            <h3>
+                @selectedProject.Description  <br />
+                @selectedProject.Link  <br />
+            </h3>
+            <button @onclick="() => overlay = false">Close</button>
+        </div>
+    </div>
+}
 
 @code {
     List<CsProject>? projects;
@@ -62,14 +64,17 @@
     protected override async Task OnInitializedAsync()
     {
         projects = await Http.GetFromJsonAsync<List<CsProject>>(NavManager.BaseUri + "CsProject");
+    
+         if (projects is not null){
 
-        for (int i = 0; i < 3; i++)
-        {
-            List<int> temp = new List<int>();
-            temp.Add(randy.Next(0, 360));
-            temp.Add(randy.Next(14, 22));
-            temp.Add(randy.Next(88, 96));
-            hsl.Add(temp);
-        }
+            for (int i = 0; i < projects.Count; i++)
+            {
+                List<int> temp = new List<int>();
+                temp.Add(randy.Next(0, 360));
+                temp.Add(randy.Next(14, 22));
+                temp.Add(randy.Next(88, 96));
+                hsl.Add(temp);
+            }
+         }
     }
 }

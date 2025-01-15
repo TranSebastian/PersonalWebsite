@@ -9,22 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{569FC369-C5CA-4D17-9E93-15DCA33F2471}|Website.csproj|c:\\users\\bachi\\documents\\code projects\\website\\website\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{569FC369-C5CA-4D17-9E93-15DCA33F2471}|Website.csproj|solutionrelative:wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{569FC369-C5CA-4D17-9E93-15DCA33F2471}|Website.csproj|c:\\users\\bachi\\documents\\code projects\\website\\website\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{569FC369-C5CA-4D17-9E93-15DCA33F2471}|Website.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{569FC369-C5CA-4D17-9E93-15DCA33F2471}|Website.csproj|c:\\users\\bachi\\documents\\code projects\\website\\website\\components\\pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{569FC369-C5CA-4D17-9E93-15DCA33F2471}|Website.csproj|solutionrelative:components\\pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{569FC369-C5CA-4D17-9E93-15DCA33F2471}|Website.csproj|c:\\users\\bachi\\documents\\code projects\\website\\website\\components\\controllers\\csprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{569FC369-C5CA-4D17-9E93-15DCA33F2471}|Website.csproj|solutionrelative:components\\controllers\\csprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{569FC369-C5CA-4D17-9E93-15DCA33F2471}|Website.csproj|c:\\users\\bachi\\documents\\code projects\\website\\website\\components\\pages\\imagecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{569FC369-C5CA-4D17-9E93-15DCA33F2471}|Website.csproj|solutionrelative:components\\pages\\imagecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,50 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 218,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ImageComponent.razor",
-              "DocumentMoniker": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Components\\Pages\\ImageComponent.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\ImageComponent.razor",
-              "ToolTip": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Components\\Pages\\ImageComponent.razor",
-              "RelativeToolTip": "Components\\Pages\\ImageComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T22:45:36.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CsProjectController.cs",
-              "DocumentMoniker": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Components\\Controllers\\CsProjectController.cs",
-              "RelativeDocumentMoniker": "Components\\Controllers\\CsProjectController.cs",
-              "ToolTip": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Components\\Controllers\\CsProjectController.cs",
-              "RelativeToolTip": "Components\\Controllers\\CsProjectController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T03:49:20.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CS.razor",
-              "DocumentMoniker": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Components\\Pages\\CS.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\CS.razor",
-              "ToolTip": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Components\\Pages\\CS.razor",
-              "RelativeToolTip": "Components\\Pages\\CS.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T02:15:51.517Z",
-              "EditorCaption": ""
             }
           ]
         },
@@ -87,41 +32,28 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CS.razor",
+              "DocumentMoniker": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Components\\Pages\\CS.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\CS.razor",
+              "ToolTip": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Components\\Pages\\CS.razor",
+              "RelativeToolTip": "Components\\Pages\\CS.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T02:15:51.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "wwwroot\\app.css",
               "ToolTip": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\wwwroot\\app.css",
               "RelativeToolTip": "wwwroot\\app.css",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAADwv3UAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-01-14T03:07:25.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T22:00:02.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Home.razor.css",
-              "DocumentMoniker": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Components\\Pages\\Home.razor.css",
-              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor.css",
-              "ToolTip": "C:\\Users\\bachi\\Documents\\code projects\\Website\\Website\\Components\\Pages\\Home.razor.css",
-              "RelativeToolTip": "Components\\Pages\\Home.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-14T03:18:49.673Z",
               "EditorCaption": ""
             }
           ]
